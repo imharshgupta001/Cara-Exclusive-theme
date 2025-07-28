@@ -17,9 +17,9 @@
         "7b0bf4c6-3873-4222-b8d6-ce009e710078": {
           "type": "newsletter",
           "settings": {
-            "title": "Cara Exclusive",
-            "description": "Sign up for our newsletter and receive 10% off on your order",
-            "email_placeholder": "Enter your email",
+            "title": "CARA EXCLUSIVE",
+            "description": "Înscrie-te la newsletterul nostru și primești 10% reducere la prima comandă.",
+            "email_placeholder": "Introdu adresa ta de email.",
             "form_style": "minimal",
             "show_social": false,
             "show_agree_checkbox": false,
@@ -51,7 +51,7 @@
         "93571032-b171-4c66-8b3e-96cd91946363": {
           "type": "our_store",
           "settings": {
-            "title": "LET'S GET IN TOUCH",
+            "title": "HAIDE SĂ ȚINEM LEGĂTURA",
             "description": "<p>Cara Exclusive – eleganță atemporală, cusută manual cu rafinament.</p>",
             "show_email": true,
             "show_phone": true,
