@@ -186,98 +186,55 @@
         "animations": "inherit"
       }
     },
-    "162251092958fcda7c": {
-      "type": "product-tabs",
-      "blocks": {
-        "162251092958fcda7c-0": {
-          "type": "tab",
-          "settings": {
-            "title": "best sellers",
-            "collection": "camasi"
-          }
-        },
-        "162251092958fcda7c-1": {
-          "type": "tab",
-          "settings": {
-            "title": "new arrivals",
-            "collection": "fashion-2023-new-arrivals"
-          }
-        }
-      },
-      "block_order": [
-        "162251092958fcda7c-0",
-        "162251092958fcda7c-1"
-      ],
-      "settings": {
-        "heading": "You are in",
-        "heading_size": "h3",
-        "subheading": "",
-        "description": "",
-        "header_alignment": "center",
-        "container": "container-fluid",
-        "color_scheme": "",
-        "tab_header": "select",
-        "limit": 10,
-        "show_button": true,
-        "button_type": "link",
-        "button_label": "Shop All Products",
-        "button_style": "m-button--secondary",
-        "button_size": "",
-        "pcard_layout": "",
-        "pcard_image_ratio": "",
-        "show_vendor": false,
-        "items_per_row": 5,
-        "item_gap": 30,
-        "enable_slider": false,
-        "show_navigation": false,
-        "show_pagination": false,
-        "mobile_disable_slider": false,
-        "use_scroll_mobile": true,
-        "item_gap_mobile": 16,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "custom_class": "sf-home__product-tab",
-        "animations": "inherit"
-      }
-    },
     "7ea56e8d-5794-4708-8812-8ee9604a3a21": {
       "type": "custom-content",
       "blocks": {
-        "template--15977492021425__7ea56e8d-5794-4708-8812-8ee9604a3a21-1678440566c64de1a8-1": {
-          "type": "image",
+        "product_7LjhJ7": {
+          "type": "product",
           "settings": {
-            "link": "",
-            "width": "50%",
+            "product": "esarfa-matase-indiana-tussar-bej",
+            "width": "25%",
             "alignment": "center",
             "block_custom_class": "",
-            "animations": "zoom-fade"
+            "animations": "inherit"
           }
         },
-        "5c5877d5-05b2-4a50-81e3-78c3f6d0d833": {
-          "type": "image_card",
+        "product_NL3tym": {
+          "type": "product",
           "settings": {
-            "width": "50%",
-            "color_scheme": "",
-            "content_position": "top_center",
-            "content_alignment": "center",
-            "text_size": "medium",
-            "text_color": "black",
-            "link": "shopify://collections/all",
-            "title": "The ReLeather Beige<br> Tennis Shoe",
-            "subtitle": "New collection",
-            "button_label": "Shop New Collection",
-            "button_style": "m-button--primary",
-            "button_size": "m-button--large",
-            "button_fixed": true,
-            "use_content_above": true,
+            "product": "esarfa-matase-indiana-tussar-galben-cu-motive-indiene",
+            "width": "25%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "product_gLfnBJ": {
+          "type": "product",
+          "settings": {
+            "product": "esarfa-matase-si-bumbac-grena",
+            "width": "25%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "product_nneXUQ": {
+          "type": "product",
+          "settings": {
+            "product": "esarfa-matase-si-bumbac-verde-fistic",
+            "width": "25%",
+            "alignment": "center",
             "block_custom_class": "",
             "animations": "inherit"
           }
         }
       },
       "block_order": [
-        "template--15977492021425__7ea56e8d-5794-4708-8812-8ee9604a3a21-1678440566c64de1a8-1",
-        "5c5877d5-05b2-4a50-81e3-78c3f6d0d833"
+        "product_7LjhJ7",
+        "product_NL3tym",
+        "product_gLfnBJ",
+        "product_nneXUQ"
       ],
       "custom_css": [],
       "settings": {
@@ -639,7 +596,6 @@
   "order": [
     "1621243260e1af0c20",
     "16225316461d1cff80",
-    "162251092958fcda7c",
     "7ea56e8d-5794-4708-8812-8ee9604a3a21",
     "7731d6df-9d53-4c34-9efb-98fac2fa365d",
     "721388d4-7859-4958-b320-c705800d31d9",
