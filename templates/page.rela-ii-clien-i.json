@@ -11,10 +11,55 @@
   "sections": {
     "main": {
       "type": "page",
+      "disabled": true,
       "settings": {}
+    },
+    "custom_content_aMNPUC": {
+      "type": "custom-content",
+      "blocks": {
+        "text_hUPKYc": {
+          "type": "text",
+          "settings": {
+            "title": "RELAȚII CLIENȚI",
+            "subheading": "",
+            "text": "<p>În ciuda faptului că este o mică afacere, Serviciul Clienți este extrem de important pentru noi.<br/>Astfel ne propunem să răspundem întrebărilor dumneavoastră în termen de 24 de ore lucrătoare de la trimitere. Respectăm timpul dumneavoastră și sperăm că iubiți colecția noastră de îmbrăcăminte la fel de mult ca și noi!</p><p><strong>Cum Comandați<br/></strong>Prin telefon: 0728 266 976, de luni până vineri între 10:00 – 19:00, iar sâmbătă între 10:00 – 17:00<br/>Prin email: <a href=\"mailto:contact@caraexclusive.eu\"><strong>contact@caraexclusive.eu</strong></a><strong><br/></strong>Direct pe site: <a href=\"https://www.caraexclusive.eu/\"><strong>www.caraexclusive.eu</strong></a></p><p>Pentru a face achiziții de pe magazinul online <a href=\"https://www.caraexclusive.eu/\"><strong>Cara Exclusuive</strong></a>, nu trebuie să vă înregistrați.<br/>Cu toate acestea, vă sugerăm să creați un cont pentru a avea acces la zone exclusive și servicii dedicate clienților noștri.</p>",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "Back To Home Page",
+            "button_link": "https://caraexclusive.eu",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "text_hUPKYc"
+      ],
+      "name": "Custom content",
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container",
+        "color_scheme": "",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "custom_content_aMNPUC"
   ]
 }
