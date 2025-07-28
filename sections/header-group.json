@@ -52,7 +52,7 @@
         "color_scheme_menu": "default",
         "header_design": "logo-center__2l",
         "container": "w-full",
-        "header_sticky": true,
+        "header_sticky": false,
         "transparent_on_top": false,
         "transparent_text_color": "#ffffff",
         "logo_text": "",
