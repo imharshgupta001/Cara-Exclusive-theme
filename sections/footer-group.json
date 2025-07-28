@@ -37,7 +37,7 @@
         "7ebc2f78-975b-4a81-b874-103c3355a866": {
           "type": "menu",
           "settings": {
-            "menu": "main-menu",
+            "menu": "despre-noi",
             "title": "",
             "width": "25%",
             "order_first": false,
@@ -47,7 +47,7 @@
         "49e72833-c68f-4a7b-ab64-3ef0cae99bcb": {
           "type": "menu",
           "settings": {
-            "menu": "main-menu",
+            "menu": "footer",
             "title": "Information",
             "width": "25%",
             "order_first": false,
@@ -57,10 +57,10 @@
         "93571032-b171-4c66-8b3e-96cd91946363": {
           "type": "our_store",
           "settings": {
-            "title": "Our store",
+            "title": "Cara Exclusive",
             "description": "",
-            "show_email": false,
-            "show_phone": false,
+            "show_email": true,
+            "show_phone": true,
             "show_socials_link": true,
             "width": "25%",
             "order_first": false,
