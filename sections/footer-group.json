@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "footer",
   "name": "Footer",
@@ -28,6 +37,7 @@
         "7ebc2f78-975b-4a81-b874-103c3355a866": {
           "type": "menu",
           "settings": {
+            "menu": "main-menu",
             "title": "",
             "width": "25%",
             "order_first": false,
@@ -37,6 +47,7 @@
         "49e72833-c68f-4a7b-ab64-3ef0cae99bcb": {
           "type": "menu",
           "settings": {
+            "menu": "main-menu",
             "title": "Information",
             "width": "25%",
             "order_first": false,
@@ -65,6 +76,7 @@
         "93571032-b171-4c66-8b3e-96cd91946363"
       ],
       "settings": {
+        "color_scheme": "",
         "design": "footer-1",
         "container": "container-fluid",
         "bordered": false,
@@ -75,7 +87,8 @@
         "show_social_links": false,
         "enable_follow_on_shop": true,
         "show_payment_icons": true,
-        "payment_icons_width": 300
+        "payment_icons_width": 300,
+        "footer_bottom_color_scheme": ""
       }
     },
     "mobile-sticky-bar": {
@@ -86,7 +99,7 @@
         "show_collection_icon": true,
         "show_cart_icon": true,
         "show_search_icon": true,
-        "show_account_icon": false,
+        "show_account_icon": true,
         "show_wishlist_icon": false
       }
     },
@@ -102,7 +115,7 @@
         "block-2": {
           "type": "text",
           "settings": {
-            "text": "<p>Are you 18 years old or older?<\/p>"
+            "text": "<p>Are you 18 years old or older?</p>"
           }
         },
         "block-3": {
@@ -123,7 +136,7 @@
         "enable": false,
         "bg_blur": true,
         "decline_heading": "Come back when you're older",
-        "decline_content": "<p>Sorry, the content of this store can't be seen by a younger audience. Come back when you're older.<\/p>",
+        "decline_content": "<p>Sorry, the content of this store can't be seen by a younger audience. Come back when you're older.</p>",
         "return_button": "Oops, I entered incorrectly"
       }
     }

@@ -11,10 +11,67 @@
   "sections": {
     "main": {
       "type": "page",
+      "disabled": true,
       "settings": {}
+    },
+    "custom_content_RgHBTH": {
+      "type": "custom-content",
+      "blocks": {
+        "image_xpmbxc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Sal-verde-cu-broderie-hand-made-si-blanita-ASK-327-2-jpg.webp",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "text_kdhxrp": {
+          "type": "text",
+          "settings": {
+            "title": "DESPRE CARA",
+            "subheading": "",
+            "text": "<p>Din dorința de a oferi un produs unic și special a apărut „CARA„ ca o colaborare româno-indiană unde elementele culturale se îmbină armonios creând piese din materiale prețioase de cașmir, pașmina, mătase naturală, cu broderii hand made ceea ce oferă un plus valoare produselor oferite.</p><p>Dorim să oferim un stil vestimentar liber, ușor de asortat și foarte accesibil pentru toți dar în același timp cu eleganță și prețiozitate. În acest sens ne-am îndreptat încet dar sigur către stilul boho ce oferă libertate și creativitate celor care îl adoptă.</p><p>Suntem atenți ca produsele noastre să ofere calitate ridicată la prețuri accesibile. Astfel veți găsi in magazinul nostru online www.caraexclusive.eu pașmina și cașmir, mătase și bumbac natural dar și combinații de fibre ce oferă eleganță prin aspect, prețiozitate prin valoarea lor și rezistență prin duritate.</p><p>Produsele noastre fac ușor obiectul unui cadou elegant. Când nu aveți inspirație, o eșarfă vă scoate ușor din criză</p><p>Prin articolele blogului nostru încercăm să vă oferim informații legate de stil, combinații și inspirații. Pentru fiecare proddus special am adăugat o mică descriere a țesăturii sau a stilului de lucru, acolo unde este cazul, astfel să se înțeleagă cât mai real caracteristicile produsului.</p><p>La comandă putem aduce din India și produse mai speciale cum ar fi saree sau obiecte decorative cu specific culturii indiene.</p><p>Apreciem interesul și dragostea dumneavoastră pentru produsele noastre astfel dorim să vă informăm cu noutățile și discounturile oferite în cadrul siteului și vă invităm să vă abonați la newsletterul nostru.</p>",
+            "width": "50%",
+            "alignment": "center",
+            "align_text": "left",
+            "text_size": "medium",
+            "text_color": "inherit",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "image_xpmbxc",
+        "text_kdhxrp"
+      ],
+      "name": "Custom content",
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "color_scheme": "",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "custom_content_RgHBTH"
   ]
 }
