@@ -105,12 +105,12 @@
     "16225316461d1cff80": {
       "type": "collection-list",
       "blocks": {
-        "694c01c9-a95f-4c09-9cf0-ec75f0131e98": {
+        "16225316461d1cff80-2": {
           "type": "collection_block",
           "settings": {
-            "collection": "bluze",
-            "title": "BLUZE",
-            "item_image": "shopify://shop_images/Image73.jpg"
+            "collection": "esarfe-si-saluri-1",
+            "title": "SALURI DE BLANA",
+            "item_image": "shopify://shop_images/Image65-1.jpg"
           }
         },
         "16225316461d1cff80-1": {
@@ -121,44 +121,37 @@
             "item_image": "shopify://shop_images/Esarfa-Casmir-reversibila-elefanti-India-negru-bej-ASK-418-2-jpg.webp"
           }
         },
-        "6d4abb37-5aa2-4499-a2b0-5d85f0d36eec": {
-          "type": "collection_block",
-          "settings": {
-            "collection": "camasi",
-            "title": "CAMASI",
-            "item_image": "shopify://shop_images/Cara-Clothing-12-of-84-scaled-1.jpg"
-          }
-        },
         "12985deb-0775-45ce-80f6-6be7f3150a91": {
           "type": "collection_block",
           "settings": {
-            "collection": "esarfe-si-saluri",
-            "title": "ESARFE SI SALURI"
+            "collection": "current-price-is-49-00-lei-esarfe-matase",
+            "title": "ESARFE MATASE",
+            "item_image": "shopify://shop_images/esarfa-matase-indiana-ASK-046-4.jpg"
           }
         },
-        "16225316461d1cff80-2": {
+        "6d4abb37-5aa2-4499-a2b0-5d85f0d36eec": {
           "type": "collection_block",
           "settings": {
-            "collection": "esarfe-si-saluri-1",
-            "title": "SALURI DE BLANA"
+            "collection": "esarfe-pashmina",
+            "title": "ESARFE PASHMINA",
+            "item_image": "shopify://shop_images/Produs-9205-1-scaled-1.webp"
           }
         },
-        "65e38235-f03b-43c9-8590-38c9c656e51c": {
+        "694c01c9-a95f-4c09-9cf0-ec75f0131e98": {
           "type": "collection_block",
           "settings": {
-            "collection": "bijuterii",
-            "title": "BIJUTERII",
-            "item_image": "shopify://shop_images/inel-pietre-bleo-2.jpg"
+            "collection": "bluze",
+            "title": "BLUZE",
+            "item_image": "shopify://shop_images/Image73.jpg"
           }
         }
       },
       "block_order": [
-        "694c01c9-a95f-4c09-9cf0-ec75f0131e98",
-        "16225316461d1cff80-1",
-        "6d4abb37-5aa2-4499-a2b0-5d85f0d36eec",
-        "12985deb-0775-45ce-80f6-6be7f3150a91",
         "16225316461d1cff80-2",
-        "65e38235-f03b-43c9-8590-38c9c656e51c"
+        "16225316461d1cff80-1",
+        "12985deb-0775-45ce-80f6-6be7f3150a91",
+        "6d4abb37-5aa2-4499-a2b0-5d85f0d36eec",
+        "694c01c9-a95f-4c09-9cf0-ec75f0131e98"
       ],
       "settings": {
         "heading": "SHOP BY CATEGORIES",
@@ -166,7 +159,7 @@
         "subheading": "",
         "description": "",
         "header_alignment": "left",
-        "color_scheme": "default",
+        "color_scheme": "scheme-ef4ac600-b0ce-4a03-95a9-d6a5123cee52",
         "container": "container-fluid",
         "layout": "grid",
         "expanded": true,
@@ -200,7 +193,7 @@
           "type": "tab",
           "settings": {
             "title": "best sellers",
-            "collection": "fashion-2023"
+            "collection": "camasi"
           }
         },
         "162251092958fcda7c-1": {
