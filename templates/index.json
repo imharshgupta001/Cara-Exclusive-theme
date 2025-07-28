@@ -193,7 +193,7 @@
         "container": "w-full",
         "layout": "left-side",
         "expanded": true,
-        "card_style": "inside",
+        "card_style": "standard",
         "text_alignment": "center",
         "hover_effect": "scaling-up",
         "show_product_count": false,
