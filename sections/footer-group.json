@@ -17,21 +17,15 @@
         "7b0bf4c6-3873-4222-b8d6-ce009e710078": {
           "type": "newsletter",
           "settings": {
-            "title": "Let’s get in touch",
-            "description": "Sign up for our newsletter and receive 10% off your",
+            "title": "Cara Exclusive",
+            "description": "Sign up for our newsletter and receive 10% off on your order",
             "email_placeholder": "Enter your email",
-            "form_style": "bordered",
+            "form_style": "minimal",
             "show_social": false,
             "show_agree_checkbox": false,
-            "width": "33%",
-            "order_first": true,
-            "open_default": true
-          }
-        },
-        "12ba5a79-51a6-413a-9802-6add59615034": {
-          "type": "spacing",
-          "settings": {
-            "width": "16%"
+            "width": "25%",
+            "order_first": false,
+            "open_default": false
           }
         },
         "7ebc2f78-975b-4a81-b874-103c3355a866": {
@@ -48,7 +42,7 @@
           "type": "menu",
           "settings": {
             "menu": "footer",
-            "title": "Information",
+            "title": "INFORMATION",
             "width": "25%",
             "order_first": false,
             "open_default": false
@@ -57,11 +51,11 @@
         "93571032-b171-4c66-8b3e-96cd91946363": {
           "type": "our_store",
           "settings": {
-            "title": "Cara Exclusive",
-            "description": "",
+            "title": "LET'S GET IN TOUCH",
+            "description": "<p>Cara Exclusive – eleganță atemporală, cusută manual cu rafinament.</p>",
             "show_email": true,
             "show_phone": true,
-            "show_socials_link": true,
+            "show_socials_link": false,
             "width": "25%",
             "order_first": false,
             "open_default": false
@@ -70,7 +64,6 @@
       },
       "block_order": [
         "7b0bf4c6-3873-4222-b8d6-ce009e710078",
-        "12ba5a79-51a6-413a-9802-6add59615034",
         "7ebc2f78-975b-4a81-b874-103c3355a866",
         "49e72833-c68f-4a7b-ab64-3ef0cae99bcb",
         "93571032-b171-4c66-8b3e-96cd91946363"
