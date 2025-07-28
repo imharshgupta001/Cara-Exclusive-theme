@@ -13,40 +13,40 @@
   "sections": {
     "annoucement": {
       "type": "annoucement",
+      "blocks": {
+        "item_AVBkW6": {
+          "type": "item",
+          "settings": {
+            "message": "CARA EXCLUSIVE DISPONIBIL ACUM",
+            "message_link": "shopify://collections"
+          }
+        },
+        "item_daBDH3": {
+          "type": "item",
+          "settings": {
+            "message": "Free shipping for all orders from $60+",
+            "message_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_AVBkW6",
+        "item_daBDH3"
+      ],
       "settings": {
-        "container": "container",
-        "color_scheme": "",
+        "container": "w-full",
+        "color_scheme": "dark",
         "show_announcement": true,
         "homepage_only": true,
         "show_close": true,
         "show_divider": false,
         "show_nav": false,
-        "autorotate": false,
+        "autorotate": true,
         "autorotate_speed": 3
       }
     },
     "header": {
       "type": "header",
-      "blocks": {
-        "5e153016-a9d7-46c9-a10e-30d16446793d": {
-          "type": "topbar",
-          "settings": {
-            "color_scheme": "",
-            "show_divider": true,
-            "show_phone_numb": false,
-            "show_email": false,
-            "show_social_links": true,
-            "show_stores_page": false,
-            "show_currency_switcher": true,
-            "show_country_selector": false,
-            "show_language_switcher": true,
-            "alert_message": "<span>Open Doors To A World Of Fashion  |  <a class=\"sf__text-link  ml-1 underline\" href=\"#\">Discover More</a><span></span></span>"
-          }
-        }
-      },
-      "block_order": [
-        "5e153016-a9d7-46c9-a10e-30d16446793d"
-      ],
       "settings": {
         "color_scheme": "default",
         "color_scheme_menu": "default",
