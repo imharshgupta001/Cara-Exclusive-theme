@@ -105,32 +105,28 @@
     "16225316461d1cff80": {
       "type": "collection-list",
       "blocks": {
-        "65e38235-f03b-43c9-8590-38c9c656e51c": {
-          "type": "collection_block",
-          "settings": {
-            "collection": "bijuterii",
-            "title": "BIJUTERII"
-          }
-        },
         "694c01c9-a95f-4c09-9cf0-ec75f0131e98": {
           "type": "collection_block",
           "settings": {
             "collection": "bluze",
-            "title": "BLUZE"
+            "title": "BLUZE",
+            "item_image": "shopify://shop_images/Image73.jpg"
           }
         },
         "16225316461d1cff80-1": {
           "type": "collection_block",
           "settings": {
-            "collection": "bratari",
-            "title": "BRATARI"
+            "collection": "esarfe-si-saluri",
+            "title": "ESARFE SI SALURI",
+            "item_image": "shopify://shop_images/Esarfa-Casmir-reversibila-elefanti-India-negru-bej-ASK-418-2-jpg.webp"
           }
         },
         "6d4abb37-5aa2-4499-a2b0-5d85f0d36eec": {
           "type": "collection_block",
           "settings": {
             "collection": "camasi",
-            "title": "CAMASI"
+            "title": "CAMASI",
+            "item_image": "shopify://shop_images/Cara-Clothing-12-of-84-scaled-1.jpg"
           }
         },
         "12985deb-0775-45ce-80f6-6be7f3150a91": {
@@ -142,38 +138,27 @@
         },
         "16225316461d1cff80-2": {
           "type": "collection_block",
-          "disabled": true,
           "settings": {
             "collection": "esarfe-si-saluri-1",
             "title": "SALURI DE BLANA"
           }
         },
-        "07ebf095-1da2-4546-87f3-97e73a789e8d": {
+        "65e38235-f03b-43c9-8590-38c9c656e51c": {
           "type": "collection_block",
-          "disabled": true,
           "settings": {
-            "collection": "basic",
-            "title": "Basic"
-          }
-        },
-        "7a571158-7686-4e66-a693-4716fc905604": {
-          "type": "collection_block",
-          "disabled": true,
-          "settings": {
-            "collection": "tops",
-            "title": "Tops"
+            "collection": "bijuterii",
+            "title": "BIJUTERII",
+            "item_image": "shopify://shop_images/inel-pietre-bleo-2.jpg"
           }
         }
       },
       "block_order": [
-        "65e38235-f03b-43c9-8590-38c9c656e51c",
         "694c01c9-a95f-4c09-9cf0-ec75f0131e98",
         "16225316461d1cff80-1",
         "6d4abb37-5aa2-4499-a2b0-5d85f0d36eec",
         "12985deb-0775-45ce-80f6-6be7f3150a91",
         "16225316461d1cff80-2",
-        "07ebf095-1da2-4546-87f3-97e73a789e8d",
-        "7a571158-7686-4e66-a693-4716fc905604"
+        "65e38235-f03b-43c9-8590-38c9c656e51c"
       ],
       "settings": {
         "heading": "SHOP BY CATEGORIES",
@@ -181,17 +166,17 @@
         "subheading": "",
         "description": "",
         "header_alignment": "left",
-        "color_scheme": "",
+        "color_scheme": "default",
         "container": "container-fluid",
         "layout": "grid",
         "expanded": true,
         "card_style": "inside",
         "text_alignment": "left",
         "hover_effect": "scaling-up",
-        "show_product_count": true,
-        "count_inline_title": true,
+        "show_product_count": false,
+        "count_inline_title": false,
         "image_rounded": false,
-        "items_per_row": 3,
+        "items_per_row": 4,
         "item_gap": 40,
         "enable_slider": true,
         "show_pagination": true,
