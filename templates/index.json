@@ -9,35 +9,6 @@
  */
 {
   "sections": {
-    "video_hero_rWhY94": {
-      "type": "video-hero",
-      "name": "Video hero",
-      "settings": {
-        "color_scheme": "",
-        "container": "w-full",
-        "hero_size": "adapt",
-        "video_ratio": "16/9",
-        "show_overlay": false,
-        "video_type": "shopify",
-        "shopify_video": "shopify://files/videos/cara Exclusive video 1.mp4",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "content_in_container": false,
-        "content_position": "center middle",
-        "text_alignment": "center",
-        "text_size": "medium",
-        "text_color": "white",
-        "title": "",
-        "subtitle": "",
-        "text": "",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "m-button--primary",
-        "button_size": "",
-        "use_content_above": false,
-        "custom_class": "",
-        "animations": "inherit"
-      }
-    },
     "1621243260e1af0c20": {
       "type": "slider",
       "blocks": {
@@ -129,6 +100,35 @@
         "autorotate_speed": 4,
         "use_content_above": false,
         "custom_class": "sf-home__slideshow",
+        "animations": "inherit"
+      }
+    },
+    "video_hero_rWhY94": {
+      "type": "video-hero",
+      "name": "Video hero",
+      "settings": {
+        "color_scheme": "",
+        "container": "w-full",
+        "hero_size": "adapt",
+        "video_ratio": "16/9",
+        "show_overlay": false,
+        "video_type": "external",
+        "shopify_video": "shopify://files/videos/cara Exclusive video 1.mp4",
+        "video_url": "https://youtu.be/_6EL4uISaCk",
+        "content_in_container": false,
+        "content_position": "center middle",
+        "text_alignment": "center",
+        "text_size": "medium",
+        "text_color": "white",
+        "title": "",
+        "subtitle": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "m-button--primary",
+        "button_size": "",
+        "use_content_above": false,
+        "custom_class": "",
         "animations": "inherit"
       }
     },
@@ -624,8 +624,8 @@
     }
   },
   "order": [
-    "video_hero_rWhY94",
     "1621243260e1af0c20",
+    "video_hero_rWhY94",
     "16225316461d1cff80",
     "7ea56e8d-5794-4708-8812-8ee9604a3a21",
     "7731d6df-9d53-4c34-9efb-98fac2fa365d",
