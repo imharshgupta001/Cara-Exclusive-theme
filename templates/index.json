@@ -189,7 +189,7 @@
         "subheading": "",
         "description": "",
         "header_alignment": "center",
-        "color_scheme": "scheme-ef4ac600-b0ce-4a03-95a9-d6a5123cee52",
+        "color_scheme": "default",
         "container": "w-full",
         "layout": "left-side",
         "expanded": true,
@@ -283,78 +283,102 @@
         "custom_class": "sf-custom--collection-banner"
       }
     },
-    "7731d6df-9d53-4c34-9efb-98fac2fa365d": {
-      "type": "icon-box",
+    "featured_product_slider_C6LUfj": {
+      "type": "featured-product-slider",
       "blocks": {
-        "template--15977492021425__7731d6df-9d53-4c34-9efb-98fac2fa365d-16769649642102c2d8-1": {
-          "type": "iconbox",
+        "product_Uppq6j": {
+          "type": "product",
           "settings": {
-            "image_by_url": "",
-            "title": "The Cashmere Cardigan",
-            "description": "<p>Add a free personalized note during checkout.</p>",
-            "link": "",
-            "button_label": "Shop Cardigans",
-            "button_link": "shopify://collections/all",
-            "button_style": "m-button--secondary",
-            "button_size": ""
+            "heading": "",
+            "description": "",
+            "product": "esarfa-matase-indiana-tussar-bej",
+            "image": "shopify://shop_images/esarfa-matase-tussar-bej-ASK-045-1.jpg"
           }
         },
-        "template--15977492021425__7731d6df-9d53-4c34-9efb-98fac2fa365d-16769649642102c2d8-0": {
-          "type": "iconbox",
+        "product_KW64Ey": {
+          "type": "product",
           "settings": {
-            "image_by_url": "",
-            "title": "The Italian Chelsea Boot",
-            "description": "<p>Brittany Bathgate shows how less is more.</p>",
-            "link": "",
-            "button_label": "Shop bags",
-            "button_link": "shopify://collections/all",
-            "button_style": "m-button--secondary",
-            "button_size": ""
+            "heading": "",
+            "description": "",
+            "product": "esarfa-matase-bumbac-turquise-marin",
+            "image": "shopify://shop_images/Image65.jpg"
           }
         },
-        "template--15977492021425__7731d6df-9d53-4c34-9efb-98fac2fa365d-16769649642102c2d8-2": {
-          "type": "iconbox",
+        "product_tQ8GMm": {
+          "type": "product",
           "settings": {
-            "image_by_url": "",
-            "title": "Transit Fanny Pack",
-            "description": "<p>Brittany Bathgate shows how less is more.</p>",
-            "link": "",
-            "button_label": "Shop Shirts",
-            "button_link": "shopify://collections/all",
-            "button_style": "m-button--secondary",
-            "button_size": ""
+            "heading": "",
+            "description": "",
+            "product": "esarfa-casmir-reversibila-paisley-si-elefanti-india-maro-bej",
+            "image": "shopify://shop_images/Produs-9118-scaled-1.webp"
           }
         }
       },
       "block_order": [
-        "template--15977492021425__7731d6df-9d53-4c34-9efb-98fac2fa365d-16769649642102c2d8-1",
-        "template--15977492021425__7731d6df-9d53-4c34-9efb-98fac2fa365d-16769649642102c2d8-0",
-        "template--15977492021425__7731d6df-9d53-4c34-9efb-98fac2fa365d-16769649642102c2d8-2"
+        "product_Uppq6j",
+        "product_KW64Ey",
+        "product_tQ8GMm"
       ],
+      "name": "Featured products slider",
       "settings": {
-        "heading": "Season Collection",
-        "heading_size": "h3",
+        "heading": "PRODUSE ÎN TENDINȚE",
+        "heading_size": "h2",
         "subheading": "",
         "description": "",
         "header_alignment": "center",
         "container": "container-fluid",
         "color_scheme": "",
-        "item_per_row": 3,
+        "image_placement": "right",
+        "slide_autoplay": true,
+        "show_navigation": false,
+        "show_pagination": true,
+        "autorotate_speed": 3,
+        "pcard_layout": "",
+        "pcard_alignment": "left",
+        "pcard_image_ratio": "",
+        "show_vendor": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "featured_collection_tqkfma": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "heading": "Colecție recomandată",
+        "heading_size": "h2",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "color_scheme": "",
+        "container": "container-fluid",
+        "collection": "saluri-de-lana",
+        "enable_flashsale": false,
+        "show_countdown": false,
+        "product_to_show": 8,
+        "items_per_row": 4,
         "item_gap": 30,
-        "item_gap_mobile": 16,
-        "card_color_scheme": "",
-        "card_style": "vertical",
-        "image_max_width": "100%",
-        "content_alignment": "start",
-        "hover_effect": "scaling-up",
+        "pcard_layout": "",
+        "pcard_image_ratio": "",
+        "show_vendor": false,
+        "hide_title": false,
         "enable_slider": false,
         "show_pagination": false,
         "show_navigation": false,
-        "use_scroll_mobile": true,
-        "use_grid_column_mb": false,
+        "button_type": "link",
+        "button_text": "Shop more",
+        "button_style": "m-button--primary",
+        "button_size": "",
+        "infinite_load": false,
+        "max_page_load": 3,
+        "mobile_disable_slider": false,
+        "use_scroll_mobile": false,
+        "item_gap_mobile": 16,
         "padding_top": 0,
         "padding_bottom": 0,
-        "custom_class": "sf-icon-box--large",
+        "custom_class": "",
         "animations": "inherit"
       }
     }
@@ -364,6 +388,7 @@
     "video_hero_rWhY94",
     "16225316461d1cff80",
     "7ea56e8d-5794-4708-8812-8ee9604a3a21",
-    "7731d6df-9d53-4c34-9efb-98fac2fa365d"
+    "featured_product_slider_C6LUfj",
+    "featured_collection_tqkfma"
   ]
 }
