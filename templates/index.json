@@ -151,14 +151,6 @@
             "item_image": "shopify://shop_images/Esarfa-Casmir-reversibila-elefanti-India-negru-bej-ASK-418-2-jpg.webp"
           }
         },
-        "12985deb-0775-45ce-80f6-6be7f3150a91": {
-          "type": "collection_block",
-          "settings": {
-            "collection": "current-price-is-49-00-lei-esarfe-matase",
-            "title": "ESARFE MATASE",
-            "item_image": "shopify://shop_images/esarfa-matase-indiana-ASK-046-4.jpg"
-          }
-        },
         "6d4abb37-5aa2-4499-a2b0-5d85f0d36eec": {
           "type": "collection_block",
           "settings": {
@@ -175,12 +167,12 @@
             "item_image": "shopify://shop_images/Image73.jpg"
           }
         },
-        "collection_block_GRxBee": {
+        "12985deb-0775-45ce-80f6-6be7f3150a91": {
           "type": "collection_block",
           "settings": {
-            "collection": "portofele",
-            "title": "",
-            "item_image": "shopify://shop_images/81SaQMCdTAL._AC_SL1500_-jpg.webp"
+            "collection": "current-price-is-49-00-lei-esarfe-matase",
+            "title": "ESARFE MATASE",
+            "item_image": "shopify://shop_images/esarfa-matase-indiana-ASK-046-4.jpg"
           }
         },
         "collection_block_nYjx6z": {
@@ -190,16 +182,24 @@
             "title": "BRATARI",
             "item_image": "shopify://shop_images/ChatGPT_Image_Aug_1_2025_at_12_07_45_AM_1.png"
           }
+        },
+        "collection_block_GRxBee": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "portofele",
+            "title": "",
+            "item_image": "shopify://shop_images/81SaQMCdTAL._AC_SL1500_-jpg.webp"
+          }
         }
       },
       "block_order": [
         "16225316461d1cff80-2",
         "16225316461d1cff80-1",
-        "12985deb-0775-45ce-80f6-6be7f3150a91",
         "6d4abb37-5aa2-4499-a2b0-5d85f0d36eec",
         "694c01c9-a95f-4c09-9cf0-ec75f0131e98",
-        "collection_block_GRxBee",
-        "collection_block_nYjx6z"
+        "12985deb-0775-45ce-80f6-6be7f3150a91",
+        "collection_block_nYjx6z",
+        "collection_block_GRxBee"
       ],
       "settings": {
         "heading": "CUMPĂRĂ DUPĂ CATEGORIE",
@@ -220,18 +220,48 @@
         "items_per_row": 4,
         "item_gap": 40,
         "enable_slider": true,
-        "show_pagination": true,
-        "show_navigation": true,
+        "show_pagination": false,
+        "show_navigation": false,
         "autorotate": true,
         "autorotate_speed": 3,
         "mobile_disable_slider": false,
         "use_scroll_mobile": true,
         "mobile_gap": 16,
         "hidden_slide_control_mobile": false,
-        "padding_top": 0,
-        "padding_bottom": 0,
+        "padding_top": 50,
+        "padding_bottom": 50,
         "custom_class": "sf-home__collection-list",
         "animations": "inherit"
+      }
+    },
+    "scrolling_promotion_AJyYxb": {
+      "type": "scrolling-promotion",
+      "blocks": {
+        "announcement_FLDJLw": {
+          "type": "announcement",
+          "settings": {
+            "custom_svg": "",
+            "icon_size": "medium",
+            "text": "FIECARE PIEASĂ DE LA CARA ESTE ALEASĂ CU SUFLET, NU DUPĂ TENDINȚE.",
+            "text_size": 82,
+            "text_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_FLDJLw"
+      ],
+      "name": "Scrolling promotion",
+      "settings": {
+        "container": "w-full",
+        "direction": "left",
+        "speed": 30,
+        "item_gap": 50,
+        "item_gap_mobile": 30,
+        "color_scheme": "footer",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "custom_class": ""
       }
     },
     "7ea56e8d-5794-4708-8812-8ee9604a3a21": {
@@ -296,8 +326,8 @@
         "gap": 15,
         "use_scroll_mobile": false,
         "gap_mobile": 10,
-        "padding_top": 10,
-        "padding_bottom": 10,
+        "padding_top": 50,
+        "padding_bottom": 50,
         "custom_class": "sf-custom--collection-banner"
       }
     },
@@ -310,7 +340,7 @@
             "width": "100%",
             "alignment": "center",
             "subtitle": "",
-            "title": "WEEKLY COLLECTION",
+            "title": "ALEGERILE FONDATORULUI",
             "text": "",
             "button_label": "",
             "button_link": "",
@@ -351,13 +381,13 @@
         "subheading": "",
         "description": "",
         "header_alignment": "center",
-        "container": "container-fluid",
-        "color_scheme": "",
+        "container": "w-full",
+        "color_scheme": "scheme-65e391e9-b3a4-467e-b33a-a0a1081760b5",
         "gap": 30,
         "use_scroll_mobile": false,
         "gap_mobile": 16,
-        "padding_top": 0,
-        "padding_bottom": 0,
+        "padding_top": 50,
+        "padding_bottom": 50,
         "custom_class": ""
       }
     },
@@ -415,8 +445,8 @@
         "pcard_alignment": "left",
         "pcard_image_ratio": "",
         "show_vendor": false,
-        "padding_top": 0,
-        "padding_bottom": 0,
+        "padding_top": 50,
+        "padding_bottom": 50,
         "custom_class": "",
         "animations": "inherit"
       }
@@ -425,7 +455,7 @@
       "type": "featured-collection",
       "name": "Featured collection",
       "settings": {
-        "heading": "Colecție recomandată",
+        "heading": "COLECȚIE RECOMANDATĂ",
         "heading_size": "h2",
         "subheading": "",
         "description": "",
@@ -454,10 +484,33 @@
         "mobile_disable_slider": false,
         "use_scroll_mobile": false,
         "item_gap_mobile": 16,
-        "padding_top": 0,
-        "padding_bottom": 0,
+        "padding_top": 50,
+        "padding_bottom": 50,
         "custom_class": "",
         "animations": "inherit"
+      }
+    },
+    "instagram_bmKVqm": {
+      "type": "instagram",
+      "name": "Instagram",
+      "settings": {
+        "heading": "FOLLOW US ON INSTAGRAM",
+        "heading_size": "h2",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "w-full",
+        "color_scheme": "scheme-65e391e9-b3a4-467e-b33a-a0a1081760b5",
+        "layout": "grid",
+        "images_count": 4,
+        "grid_columns": 4,
+        "gap": 30,
+        "mobile_gap": 10,
+        "profile": "https://www.instagram.com/onlinecara/",
+        "button_label": "FOLLOW US",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "custom_class": ""
       }
     }
   },
@@ -465,9 +518,11 @@
     "1621243260e1af0c20",
     "video_hero_rWhY94",
     "16225316461d1cff80",
+    "scrolling_promotion_AJyYxb",
     "7ea56e8d-5794-4708-8812-8ee9604a3a21",
     "custom_content_cXhdfd",
     "featured_product_slider_C6LUfj",
-    "featured_collection_tqkfma"
+    "featured_collection_tqkfma",
+    "instagram_bmKVqm"
   ]
 }
