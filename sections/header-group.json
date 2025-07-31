@@ -53,7 +53,7 @@
         "header_design": "logo-center__2l",
         "container": "w-full",
         "header_sticky": false,
-        "transparent_on_top": false,
+        "transparent_on_top": true,
         "transparent_text_color": "#ffffff",
         "logo_text": "",
         "logo_svg": "https://cdn.shopify.com/s/files/1/0761/8009/5193/files/imgi_1_Cara-black-png-2.webp?v=1753403973",
