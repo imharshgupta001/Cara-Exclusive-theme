@@ -15,7 +15,7 @@
     "container_fluid_offset": 65,
     "type_base_font": "jost_n4",
     "use_custom_font_body": false,
-    "custom_body_font": "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n<link href=\"https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap\" rel=\"stylesheet\">",
+    "custom_body_font": "https://cdn.shopify.com/s/files/1/0761/8009/5193/files/Jost-VariableFont_wght.ttf?v=1753996714",
     "custom_body_weight": "500",
     "type_base_size": 16,
     "type_header_font": "poppins_n4",
