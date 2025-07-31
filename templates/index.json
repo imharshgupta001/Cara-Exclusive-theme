@@ -360,7 +360,7 @@
             "pcard_layout": "",
             "pcard_image_ratio": "",
             "show_vendor": false,
-            "hide_title": true,
+            "hide_title": false,
             "enable_slider": true,
             "show_pagination": false,
             "show_navigation": false,
