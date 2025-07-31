@@ -35,7 +35,7 @@
       ],
       "settings": {
         "container": "w-full",
-        "color_scheme": "dark",
+        "color_scheme": "scheme-ef4ac600-b0ce-4a03-95a9-d6a5123cee52",
         "show_announcement": true,
         "homepage_only": true,
         "show_close": true,
@@ -48,8 +48,8 @@
     "header": {
       "type": "header",
       "settings": {
-        "color_scheme": "default",
-        "color_scheme_menu": "default",
+        "color_scheme": "scheme-65e391e9-b3a4-467e-b33a-a0a1081760b5",
+        "color_scheme_menu": "scheme-65e391e9-b3a4-467e-b33a-a0a1081760b5",
         "header_design": "logo-center__2l",
         "container": "w-full",
         "header_sticky": false,
