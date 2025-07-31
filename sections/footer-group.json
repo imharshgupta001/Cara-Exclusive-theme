@@ -125,8 +125,8 @@
         "block-3"
       ],
       "settings": {
-        "design_mode": false,
-        "enable": false,
+        "design_mode": true,
+        "enable": true,
         "bg_blur": true,
         "decline_heading": "Come back when you're older",
         "decline_content": "<p>Sorry, the content of this store can't be seen by a younger audience. Come back when you're older.</p>",
