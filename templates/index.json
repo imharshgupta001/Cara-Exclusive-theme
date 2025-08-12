@@ -9,6 +9,35 @@
  */
 {
   "sections": {
+    "video_hero_8UXH4D": {
+      "type": "video-hero",
+      "name": "Video hero",
+      "settings": {
+        "color_scheme": "",
+        "container": "w-full",
+        "hero_size": "adapt",
+        "video_ratio": "21/9",
+        "show_overlay": false,
+        "video_type": "shopify",
+        "shopify_video": "shopify://files/videos/cara Exclusive video 1.mp4",
+        "video_url": "",
+        "content_in_container": false,
+        "content_position": "center middle",
+        "text_alignment": "center",
+        "text_size": "medium",
+        "text_color": "white",
+        "title": "",
+        "subtitle": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "m-button--primary",
+        "button_size": "",
+        "use_content_above": false,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
     "1621243260e1af0c20": {
       "type": "slider",
       "blocks": {
@@ -142,35 +171,6 @@
       ],
       "disabled": true,
       "settings": {}
-    },
-    "video_hero_8UXH4D": {
-      "type": "video-hero",
-      "name": "Video hero",
-      "settings": {
-        "color_scheme": "",
-        "container": "w-full",
-        "hero_size": "adapt",
-        "video_ratio": "21/9",
-        "show_overlay": false,
-        "video_type": "shopify",
-        "shopify_video": "shopify://files/videos/cara Exclusive video 1.mp4",
-        "video_url": "",
-        "content_in_container": false,
-        "content_position": "center middle",
-        "text_alignment": "center",
-        "text_size": "medium",
-        "text_color": "white",
-        "title": "",
-        "subtitle": "",
-        "text": "",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "m-button--primary",
-        "button_size": "",
-        "use_content_above": false,
-        "custom_class": "",
-        "animations": "inherit"
-      }
     },
     "16225316461d1cff80": {
       "type": "collection-list",
@@ -555,9 +555,9 @@
     }
   },
   "order": [
+    "video_hero_8UXH4D",
     "1621243260e1af0c20",
     "17550419779088c66a",
-    "video_hero_8UXH4D",
     "16225316461d1cff80",
     "scrolling_promotion_AJyYxb",
     "7ea56e8d-5794-4708-8812-8ee9604a3a21",
