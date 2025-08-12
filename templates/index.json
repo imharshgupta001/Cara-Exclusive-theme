@@ -38,6 +38,32 @@
         "animations": "inherit"
       }
     },
+    "video_TWWgFi": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "container": "w-full",
+        "color_scheme": "",
+        "video_type": "shopify",
+        "shopify_video": "shopify://files/videos/cara Exclusive video 1.mp4",
+        "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "ratio": "21:9",
+        "video_title": "",
+        "text_size": "medium",
+        "text_color": "inherit",
+        "play_style": "solid",
+        "play_size": "medium",
+        "width": "650px",
+        "autoplay": false,
+        "loop": false,
+        "muted": false,
+        "show_controls": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
     "1621243260e1af0c20": {
       "type": "slider",
       "blocks": {
@@ -556,6 +582,7 @@
   },
   "order": [
     "video_hero_8UXH4D",
+    "video_TWWgFi",
     "1621243260e1af0c20",
     "17550419779088c66a",
     "16225316461d1cff80",
