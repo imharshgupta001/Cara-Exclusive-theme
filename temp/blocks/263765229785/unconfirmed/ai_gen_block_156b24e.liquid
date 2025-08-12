@@ -1,6 +1,417 @@
+{% doc %}
+  @prompt
+    Create a split-section layout for a collection highlight. On the left side, add:
+    Small heading with the collection name in uppercase (e.g., 'MAGNOLIA').
+    Large, elegant title in all caps (e.g., 'DREAMY SUMMER').
+    Short descriptive paragraph in a poetic, lifestyle tone. Example: ‘Inspired by endless summer days and lazy afternoons by the sea…’
+    A solid dark rectangular button with white text saying 'SHOP COLLECTION'.
+    On the right side, add:
+    A square image placeholder with a solid dark background and white line-art illustration of products (e.g., shoes and bags).
+    Style: minimal, clean, lots of white space, thin modern fonts, evenly spaced layout, premium fashion brand aesthetic."
+
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-collection-split-{{ ai_gen_id }} {
+    display: flex;
+    align-items: center;
+    min-height: 500px;
+    background-color: {{ block.settings.background_color }};
+    padding: {{ block.settings.section_padding }}px;
+    gap: {{ block.settings.content_gap }}px;}
+
+  .ai-collection-split__content-{{ ai_gen_id }} {
+    flex: 1;
+    padding-right: {{ block.settings.content_spacing }}px;
+    max-width: 500px;
+  }
+
+  .ai-collection-split__image-{{ ai_gen_id }} {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+  .ai-collection-split__image-wrapper-{{ ai_gen_id }} {
+    width: 100%;
+    max-width: 400px;
+    aspect-ratio: 1;
+    position: relative;
+    overflow: hidden;border-radius: {{ block.settings.image_border_radius }}px;
+  }
+
+  .ai-collection-split__image-wrapper-{{ ai_gen_id }} img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;}
+
+  .ai-collection-split__image-placeholder-{{ ai_gen_id }} {
+    width: 100%;
+    height: 100%;
+    background-color: {{ block.settings.placeholder_bg_color }};
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ai-collection-split__image-placeholder-{{ ai_gen_id }} svg {
+    width: 60%;
+    height: 60%;
+    color: {{ block.settings.placeholder_icon_color }};}
+
+  .ai-collection-split__small-heading-{{ ai_gen_id }} {
+    font-size: {{ block.settings.small_heading_size }}px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: {{ block.settings.text_color }};
+    margin: 0 0 {{ block.settings.heading_spacing }}px 0;line-height: 1.2;
+  }
+
+  .ai-collection-split__main-heading-{{ ai_gen_id }} {
+    font-size: {{ block.settings.main_heading_size }}px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: {{ block.settings.heading_color }};
+    margin: 0 0 {{ block.settings.heading_spacing }}px 0;
+    line-height: 1.1;
+  }
+
+  .ai-collection-split__description-{{ ai_gen_id }} {
+    font-size: {{ block.settings.description_size }}px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: {{ block.settings.text_color }};
+    margin: 0 0 {{ block.settings.button_spacing }}px 0;
+    max-width: 400px;
+  }
+
+  .ai-collection-split__button-{{ ai_gen_id }} {
+    display: inline-block;
+    padding: {{ block.settings.button_padding }}px {{ block.settings.button_padding | times: 2 }}px;
+    background-color: {{ block.settings.button_bg_color }};
+    color: {{ block.settings.button_text_color }};
+    text-decoration: none;
+    font-size: {{ block.settings.button_text_size }}px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: {{ block.settings.button_border_radius }}px;
+    transition: all 0.3s ease;
+    cursor: pointer;}
+
+  .ai-collection-split__button-{{ ai_gen_id }}:hover {
+    background-color: {{ block.settings.button_hover_bg }};
+    color: {{ block.settings.button_hover_text }};
+  }
+
+  @media screen and (max-width: 768px) {
+    .ai-collection-split-{{ ai_gen_id }} {
+      flex-direction: column;
+      text-align: center;padding: {{ block.settings.section_padding | times: 0.7 }}px {{ block.settings.section_padding | times: 0.5 }}px;
+    }
+
+    .ai-collection-split__content-{{ ai_gen_id }} {
+      padding-right: 0;
+      margin-bottom: {{ block.settings.content_gap }}px;
+    }
+
+    .ai-collection-split__image-wrapper-{{ ai_gen_id }} {
+      max-width: 300px;
+    }
+
+    .ai-collection-split__main-heading-{{ ai_gen_id }} {
+      font-size: {{ block.settings.main_heading_size | times: 0.8 }}px;
+    }
+  }
+{% endstyle %}
+
+<div class="ai-collection-split-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-collection-split__content-{{ ai_gen_id }}">
+    {% if block.settings.small_heading != blank %}
+      <div class="ai-collection-split__small-heading-{{ ai_gen_id }}">
+        {{ block.settings.small_heading }}
+      </div>
+    {% endif %}
+
+    {% if block.settings.main_heading != blank %}
+      <h2 class="ai-collection-split__main-heading-{{ ai_gen_id }}">
+        {{ block.settings.main_heading }}
+      </h2>
+    {% endif %}
+
+    {% if block.settings.description != blank %}
+      <div class="ai-collection-split__description-{{ ai_gen_id }}">
+        {{ block.settings.description }}
+      </div>
+    {% endif %}
+
+    {% if block.settings.button_text != blank and block.settings.button_link != blank %}
+      <a href="{{ block.settings.button_link }}" class="ai-collection-split__button-{{ ai_gen_id }}">
+        {{ block.settings.button_text }}
+      </a>
+    {% endif %}
+  </div>
+
+  <div class="ai-collection-split__image-{{ ai_gen_id }}">
+    <div class="ai-collection-split__image-wrapper-{{ ai_gen_id }}">
+      {% if block.settings.collection_image %}
+        <img
+          src="{{ block.settings.collection_image | image_url: width: 800 }}"
+          alt="{{ block.settings.collection_image.alt | escape }}"
+          loading="lazy"
+          width="{{ block.settings.collection_image.width }}"
+          height="{{ block.settings.collection_image.height }}"
+        >
+      {% else %}
+        <div class="ai-collection-split__image-placeholder-{{ ai_gen_id }}">
+          {{ 'collection-apparel-1' | placeholder_svg_tag }}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Collection split",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "text",
+      "id": "small_heading",
+      "label": "Small heading",
+      "default": "MAGNOLIA"
+    },
+    {
+      "type": "text",
+      "id": "main_heading",
+      "label": "Main heading",
+      "default": "DREAMY SUMMER"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Description",
+      "default": "Inspired by endless summer days and lazy afternoons by the sea, this collection captures the essence of effortless elegance."
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button text",
+      "default": "SHOP COLLECTION"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button link"
+    },
+    {
+      "type": "image_picker",
+      "id": "collection_image",
+      "label": "Collection image"
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text",
+      "default": "#666666"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Main heading",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "button_bg_color",
+      "label": "Button background",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button text",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_bg",
+      "label": "Button hover background",
+      "default": "#333333"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_text",
+      "label": "Button hover text",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "placeholder_bg_color",
+      "label": "Placeholder background",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "placeholder_icon_color",
+      "label": "Placeholder icon",
+      "default": "#ffffff"
+    },
+    {
+      "type": "header",
+      "content": "Typography"
+    },
+    {
+      "type": "range",
+      "id": "small_heading_size",
+      "min": 10,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "label": "Small heading size",
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "main_heading_size",
+      "min": 24,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "label": "Main heading size",
+      "default": 42
+    },
+    {
+      "type": "range",
+      "id": "description_size",
+      "min": 12,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "label": "Description size",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "button_text_size",
+      "min": 10,
+      "max": 18,
+      "step": 1,
+      "unit": "px",
+      "label": "Button text size",
+      "default": 14
+    },
+    {
+      "type": "header",
+      "content": "Spacing"
+    },
+    {
+      "type": "range",
+      "id": "section_padding",
+      "min": 20,
+      "max": 100,
+      "step": 10,
+      "unit": "px",
+      "label": "Section padding",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "content_gap",
+      "min": 20,
+      "max": 80,
+      "step": 10,
+      "unit": "px",
+      "label": "Content gap",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "content_spacing",
+      "min": 0,
+      "max": 60,
+      "step": 10,
+      "unit": "px",
+      "label": "Content spacing",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "heading_spacing",
+      "min": 10,
+      "max": 40,
+      "step": 5,
+      "unit": "px",
+      "label": "Heading spacing",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "button_spacing",
+      "min": 20,
+      "max": 60,
+      "step": 5,
+      "unit": "px",
+      "label": "Button spacing",
+      "default": 30
+    },
+    {
+      "type": "range",
+      "id": "button_padding",
+      "min": 10,
+      "max": 25,
+      "step": 5,
+      "unit": "px",
+      "label": "Button padding",
+      "default": 15
+    },
+    {
+      "type": "header",
+      "content": "Style"
+    },
+    {
+      "type": "range",
+      "id": "image_border_radius",
+      "min": 0,
+      "max": 20,
+      "step": 2,
+      "unit": "px",
+      "label": "Image border radius",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "button_border_radius",
+      "min": 0,
+      "max": 20,
+      "step": 2,
+      "unit": "px",
+      "label": "Button border radius",
+      "default": 0
+    }
+  ],
+  "presets": [
+    {
+      "name": "Collection split"
+    }
+  ]
+}
 {% endschema %}
