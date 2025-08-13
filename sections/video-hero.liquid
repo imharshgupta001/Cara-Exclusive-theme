@@ -84,9 +84,10 @@
         endfor
         assign placeholder_video = 'https://cdn.shopify.com/videos/c/o/v/004adea0ee05482c8d68bc17d3997e6f.mp4'
 
-        if section.settings.video_type == 'shopify' and video_url == blank and request.design_mode
-          assign video_url = placeholder_video
-        endif
+        if section.settings.video_type == 'shopify' and video_url == blank
+  assign video_url = placeholder_video
+endif
+
         case section.settings.video_type
           when 'external'
             assign video_url = section.settings.video_url
