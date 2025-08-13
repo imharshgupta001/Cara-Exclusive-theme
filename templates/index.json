@@ -27,8 +27,38 @@
         "animations": "inherit"
       }
     },
+    "video_hero_cUb6dF": {
+      "type": "video-hero",
+      "name": "Video hero",
+      "settings": {
+        "color_scheme": "",
+        "container": "w-full",
+        "hero_size": "adapt",
+        "video_ratio": "16/9",
+        "show_overlay": false,
+        "video_type": "shopify",
+        "video_url": "",
+        "content_in_container": false,
+        "content_position": "center middle",
+        "text_alignment": "center",
+        "text_size": "medium",
+        "text_color": "white",
+        "title": "",
+        "subtitle": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "m-button--primary",
+        "button_size": "",
+        "use_content_above": false,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
     "video_zk4HCD": {
       "type": "video",
+      "disabled": true,
+      "custom_css": [],
       "name": "Video",
       "settings": {
         "container": "w-full",
@@ -559,6 +589,7 @@
   },
   "order": [
     "slider_nmyMVe",
+    "video_hero_cUb6dF",
     "video_zk4HCD",
     "16225316461d1cff80",
     "scrolling_promotion_AJyYxb",
