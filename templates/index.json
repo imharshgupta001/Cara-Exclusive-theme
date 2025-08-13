@@ -15,7 +15,7 @@
       "settings": {
         "color_scheme": "",
         "container": "w-full",
-        "hero_size": "medium",
+        "hero_size": "large",
         "video_ratio": "16/9",
         "show_overlay": false,
         "video_type": "external",
