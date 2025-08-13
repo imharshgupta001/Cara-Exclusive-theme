@@ -15,11 +15,11 @@
       "settings": {
         "color_scheme": "",
         "container": "w-full",
-        "hero_size": "adapt",
+        "hero_size": "medium",
         "video_ratio": "16/9",
         "show_overlay": false,
         "video_type": "external",
-        "video_url": "https://youtu.be/kOycH_SCf3A",
+        "video_url": "https://youtu.be/2oKXl0chXek",
         "content_in_container": false,
         "content_position": "center middle",
         "text_alignment": "center",
