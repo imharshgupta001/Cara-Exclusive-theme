@@ -43,7 +43,7 @@
       "name": "Slideshow",
       "settings": {
         "container": "w-full",
-        "slideshow_height": "adapt",
+        "slideshow_height": "medium",
         "show_overlay": false,
         "dots_position": "bottom",
         "dots_color": "dark",
