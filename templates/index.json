@@ -104,31 +104,9 @@
         "animations": "inherit"
       }
     },
-    "17550493523016e295": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_e04a4a2_HHKkDA": {
-          "type": "ai_gen_block_e04a4a2",
-          "disabled": true,
-          "settings": {
-            "video_url": "https://youtu.be/2oKXl0chXek",
-            "autoplay": true,
-            "loop": true,
-            "muted": true,
-            "controls": false,
-            "device_visibility": "all_devices",
-            "custom_css_class": ""
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_e04a4a2_HHKkDA"
-      ],
-      "settings": {}
-    },
     "video_hero_3Titaa": {
       "type": "video-hero",
+      "disabled": true,
       "name": "Video hero",
       "settings": {
         "color_scheme": "",
@@ -539,7 +517,6 @@
   },
   "order": [
     "slider_nmyMVe",
-    "17550493523016e295",
     "video_hero_3Titaa",
     "16225316461d1cff80",
     "scrolling_promotion_AJyYxb",
