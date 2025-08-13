@@ -9,52 +9,6 @@
  */
 {
   "sections": {
-    "custom_content_BY66HW": {
-      "type": "custom-content",
-      "blocks": {
-        "video_Bt9JYt": {
-          "type": "video",
-          "settings": {
-            "video_type": "shopify",
-            "shopify_video": "shopify://files/videos/cara exclusive video.mp4",
-            "video_link": "",
-            "ratio": "16:9",
-            "video_title": "",
-            "text_size": "medium",
-            "text_color": "white",
-            "play_style": "solid",
-            "play_size": "medium",
-            "autoplay": true,
-            "loop": true,
-            "muted": true,
-            "show_controls": false,
-            "width": "100%",
-            "alignment": "start",
-            "block_custom_class": "",
-            "animations": "inherit"
-          }
-        }
-      },
-      "block_order": [
-        "video_Bt9JYt"
-      ],
-      "name": "Custom content",
-      "settings": {
-        "heading": "",
-        "heading_size": "h3",
-        "subheading": "",
-        "description": "",
-        "header_alignment": "center",
-        "container": "w-full",
-        "color_scheme": "",
-        "gap": 30,
-        "use_scroll_mobile": false,
-        "gap_mobile": 16,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "custom_class": ""
-      }
-    },
     "slider_nmyMVe": {
       "type": "slider",
       "blocks": {
@@ -86,11 +40,10 @@
       "block_order": [
         "video_slide_y3UcGj"
       ],
-      "disabled": true,
       "name": "Slideshow",
       "settings": {
         "container": "w-full",
-        "slideshow_height": "medium",
+        "slideshow_height": "fullscreen",
         "show_overlay": false,
         "dots_position": "bottom",
         "dots_color": "dark",
@@ -609,7 +562,6 @@
     }
   },
   "order": [
-    "custom_content_BY66HW",
     "slider_nmyMVe",
     "16225316461d1cff80",
     "scrolling_promotion_AJyYxb",
