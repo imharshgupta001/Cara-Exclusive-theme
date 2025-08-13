@@ -17,7 +17,7 @@
         "container": "w-full",
         "hero_size": "adapt",
         "video_ratio": "21/9",
-        "show_overlay": true,
+        "show_overlay": false,
         "video_type": "external",
         "video_url": "https://youtu.be/Nl0vSRAjkMs",
         "content_in_container": false,
@@ -32,7 +32,7 @@
         "button_link": "",
         "button_style": "m-button--primary",
         "button_size": "",
-        "use_content_above": true,
+        "use_content_above": false,
         "custom_class": "",
         "animations": "inherit"
       }
