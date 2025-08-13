@@ -18,7 +18,7 @@
         "hero_size": "adapt",
         "video_ratio": "21/9",
         "show_overlay": true,
-        "video_type": "shopify",
+        "video_type": "external",
         "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "content_in_container": false,
         "content_position": "center middle",
