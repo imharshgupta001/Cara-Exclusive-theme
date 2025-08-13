@@ -9,8 +9,35 @@
  */
 {
   "sections": {
+    "video_Cc9cmK": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "container": "w-full",
+        "color_scheme": "",
+        "video_type": "shopify",
+        "shopify_video": "shopify://files/videos/final cara excluisve website video 1 .mov",
+        "video_link": "",
+        "ratio": "16:9",
+        "video_title": "",
+        "text_size": "medium",
+        "text_color": "inherit",
+        "play_style": "solid",
+        "play_size": "medium",
+        "width": "650px",
+        "autoplay": true,
+        "loop": true,
+        "muted": false,
+        "show_controls": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
     "video_hero_3Titaa": {
       "type": "video-hero",
+      "disabled": true,
       "name": "Video hero",
       "settings": {
         "color_scheme": "",
@@ -421,6 +448,7 @@
     }
   },
   "order": [
+    "video_Cc9cmK",
     "video_hero_3Titaa",
     "16225316461d1cff80",
     "scrolling_promotion_AJyYxb",
