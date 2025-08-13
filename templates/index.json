@@ -104,100 +104,34 @@
         "animations": "inherit"
       }
     },
-    "7ea56e8d-5794-4708-8812-8ee9604a3a21": {
-      "type": "custom-content",
+    "scrolling_promotion_AJyYxb": {
+      "type": "scrolling-promotion",
       "blocks": {
-        "product_7LjhJ7": {
-          "type": "product",
+        "announcement_FLDJLw": {
+          "type": "announcement",
           "settings": {
-            "product": "esarfa-matase-indiana-tussar-bej",
-            "width": "25%",
-            "alignment": "center",
-            "block_custom_class": "",
-            "animations": "inherit"
-          }
-        },
-        "product_NL3tym": {
-          "type": "product",
-          "settings": {
-            "product": "esarfa-matase-indiana-tussar-galben-cu-motive-indiene",
-            "width": "25%",
-            "alignment": "center",
-            "block_custom_class": "",
-            "animations": "inherit"
-          }
-        },
-        "product_gLfnBJ": {
-          "type": "product",
-          "settings": {
-            "product": "esarfa-matase-si-bumbac-grena",
-            "width": "25%",
-            "alignment": "center",
-            "block_custom_class": "",
-            "animations": "inherit"
-          }
-        },
-        "product_nneXUQ": {
-          "type": "product",
-          "settings": {
-            "product": "esarfa-matase-si-bumbac-verde-fistic",
-            "width": "25%",
-            "alignment": "center",
-            "block_custom_class": "",
-            "animations": "inherit"
+            "custom_svg": "",
+            "icon_size": "medium",
+            "text": "FIECARE PIEASĂ DE LA CARA ESTE ALEASĂ CU SUFLET, NU DUPĂ TENDINȚE.",
+            "text_size": 82,
+            "text_link": ""
           }
         }
       },
       "block_order": [
-        "product_7LjhJ7",
-        "product_NL3tym",
-        "product_gLfnBJ",
-        "product_nneXUQ"
+        "announcement_FLDJLw"
       ],
-      "custom_css": [],
+      "name": "Scrolling promotion",
       "settings": {
-        "heading": "ESARFE MATASE",
-        "heading_size": "h2",
-        "subheading": "",
-        "description": "",
-        "header_alignment": "center",
         "container": "w-full",
-        "color_scheme": "scheme-65e391e9-b3a4-467e-b33a-a0a1081760b5",
-        "gap": 15,
-        "use_scroll_mobile": false,
-        "gap_mobile": 10,
+        "direction": "left",
+        "speed": 30,
+        "item_gap": 50,
+        "item_gap_mobile": 30,
+        "color_scheme": "footer",
         "padding_top": 50,
         "padding_bottom": 50,
-        "custom_class": "sf-custom--collection-banner"
-      }
-    },
-    "video_hero_3Titaa": {
-      "type": "video-hero",
-      "disabled": true,
-      "name": "Video hero",
-      "settings": {
-        "color_scheme": "",
-        "container": "w-full",
-        "hero_size": "medium",
-        "video_ratio": "21/9",
-        "show_overlay": false,
-        "video_type": "external",
-        "video_url": "https://youtu.be/2oKXl0chXek",
-        "content_in_container": false,
-        "content_position": "center middle",
-        "text_alignment": "center",
-        "text_size": "medium",
-        "text_color": "white",
-        "title": "",
-        "subtitle": "",
-        "text": "",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "m-button--primary",
-        "button_size": "",
-        "use_content_above": false,
-        "custom_class": "",
-        "animations": "inherit"
+        "custom_class": ""
       }
     },
     "16225316461d1cff80": {
@@ -302,34 +236,100 @@
         "animations": "inherit"
       }
     },
-    "scrolling_promotion_AJyYxb": {
-      "type": "scrolling-promotion",
+    "7ea56e8d-5794-4708-8812-8ee9604a3a21": {
+      "type": "custom-content",
       "blocks": {
-        "announcement_FLDJLw": {
-          "type": "announcement",
+        "product_7LjhJ7": {
+          "type": "product",
           "settings": {
-            "custom_svg": "",
-            "icon_size": "medium",
-            "text": "FIECARE PIEASĂ DE LA CARA ESTE ALEASĂ CU SUFLET, NU DUPĂ TENDINȚE.",
-            "text_size": 82,
-            "text_link": ""
+            "product": "esarfa-matase-indiana-tussar-bej",
+            "width": "25%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "product_NL3tym": {
+          "type": "product",
+          "settings": {
+            "product": "esarfa-matase-indiana-tussar-galben-cu-motive-indiene",
+            "width": "25%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "product_gLfnBJ": {
+          "type": "product",
+          "settings": {
+            "product": "esarfa-matase-si-bumbac-grena",
+            "width": "25%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "product_nneXUQ": {
+          "type": "product",
+          "settings": {
+            "product": "esarfa-matase-si-bumbac-verde-fistic",
+            "width": "25%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
           }
         }
       },
       "block_order": [
-        "announcement_FLDJLw"
+        "product_7LjhJ7",
+        "product_NL3tym",
+        "product_gLfnBJ",
+        "product_nneXUQ"
       ],
-      "name": "Scrolling promotion",
+      "custom_css": [],
       "settings": {
+        "heading": "ESARFE MATASE",
+        "heading_size": "h2",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
         "container": "w-full",
-        "direction": "left",
-        "speed": 30,
-        "item_gap": 50,
-        "item_gap_mobile": 30,
-        "color_scheme": "footer",
+        "color_scheme": "scheme-65e391e9-b3a4-467e-b33a-a0a1081760b5",
+        "gap": 15,
+        "use_scroll_mobile": false,
+        "gap_mobile": 10,
         "padding_top": 50,
         "padding_bottom": 50,
-        "custom_class": ""
+        "custom_class": "sf-custom--collection-banner"
+      }
+    },
+    "video_hero_3Titaa": {
+      "type": "video-hero",
+      "disabled": true,
+      "name": "Video hero",
+      "settings": {
+        "color_scheme": "",
+        "container": "w-full",
+        "hero_size": "medium",
+        "video_ratio": "21/9",
+        "show_overlay": false,
+        "video_type": "external",
+        "video_url": "https://youtu.be/2oKXl0chXek",
+        "content_in_container": false,
+        "content_position": "center middle",
+        "text_alignment": "center",
+        "text_size": "medium",
+        "text_color": "white",
+        "title": "",
+        "subtitle": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "m-button--primary",
+        "button_size": "",
+        "use_content_above": false,
+        "custom_class": "",
+        "animations": "inherit"
       }
     },
     "custom_content_cXhdfd": {
@@ -517,10 +517,10 @@
   },
   "order": [
     "slider_nmyMVe",
+    "scrolling_promotion_AJyYxb",
+    "16225316461d1cff80",
     "7ea56e8d-5794-4708-8812-8ee9604a3a21",
     "video_hero_3Titaa",
-    "16225316461d1cff80",
-    "scrolling_promotion_AJyYxb",
     "custom_content_cXhdfd",
     "featured_product_slider_C6LUfj",
     "featured_collection_tqkfma",
