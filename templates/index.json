@@ -14,13 +14,13 @@
       "blocks": {
         "ai_gen_block_e04a4a2_HHKkDA": {
           "type": "ai_gen_block_e04a4a2",
+          "disabled": true,
           "settings": {
-            "video_file": "shopify://files/videos/cara Exclusive video 1.mp4",
-            "video_url": "",
+            "video_url": "https://youtu.be/2oKXl0chXek",
             "autoplay": true,
             "loop": true,
             "muted": true,
-            "controls": true,
+            "controls": false,
             "device_visibility": "all_devices",
             "custom_css_class": ""
           },
