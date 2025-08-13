@@ -33,7 +33,7 @@
       "settings": {
         "color_scheme": "",
         "container": "w-full",
-        "hero_size": "medium",
+        "hero_size": "large",
         "video_ratio": "4/3",
         "show_overlay": false,
         "video_type": "shopify",
