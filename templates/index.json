@@ -42,7 +42,7 @@
         "text_color": "inherit",
         "play_style": "solid",
         "play_size": "medium",
-        "width": "650px",
+        "width": "1200pc",
         "autoplay": true,
         "loop": true,
         "muted": true,
