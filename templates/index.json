@@ -18,7 +18,7 @@
         "video_type": "shopify",
         "shopify_video": "shopify://files/videos/final cara excluisve website video 1 .mov",
         "video_link": "",
-        "ratio": "16:9",
+        "ratio": "4:3",
         "video_title": "",
         "text_size": "medium",
         "text_color": "inherit",
@@ -31,7 +31,7 @@
         "show_controls": false,
         "padding_top": 0,
         "padding_bottom": 0,
-        "custom_class": "",
+        "custom_class": ".my-fullwidth-video {    padding-left: 0 !important;    padding-right: 0 !important;    margin-left: 0 !important;    margin-right: 0 !important;    max-width: 100% !important;}",
         "animations": "inherit"
       }
     },
