@@ -105,7 +105,8 @@
             data-type="{{ data_type }}"
             data-video-id="{{ section.settings.video_url.id }}"
           >
-            {% if section.settings.video_type == 'shopify' and video_url != blank %}
+            {% if section.settings.video_type == 'shopify' and video_url == blank %}
+
               <video src="{{ video_url }}" playsinline autoplay muted loop></video>
             {% endif %}
           </m-video-component>
