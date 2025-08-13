@@ -11,10 +11,55 @@
   "sections": {
     "main": {
       "type": "page",
+      "disabled": true,
       "settings": {}
+    },
+    "custom_content_bBrMU3": {
+      "type": "custom-content",
+      "blocks": {
+        "text_jjAMGi": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "<p>Dacă sunteţi nemulţumit(ă) de produsul primit, <strong>www.caraexclusive.eu</strong> vă permite să îl returnaţi în termen de 14 zile lucrătoare de la data primirii produsului, cu respectarea condiţiilor de retur de mai jos:</p><p>Returul se poate face atât prin curier cât și la punctul de lucru din Bacau.</p><p>Orice retur trebuie să fie precedat de o notificare a intenţiei de retur. Această notificare se poate face prin <a href=\"https://www.superfashion.ro/return_form\">formularul de retur</a>. Returul trebuie să fie însoţit de toate documentele primite în coletul din comanda dumneavoastră inițială și de chitanța primita de la curier - dovada platii, toate acestea în original sau copie.<br/><br/>Menţionaţi în formularul de mai jos dacă doriţi rambursarea banilor sau schimbarea mărimii produsului. În cazul în care nu respectaţi condiţiile de retur precizate, nu vom accepta returul dumneavoastră.</p><p>Nu se accepta retururi cu plata ramburs!</p><p><strong>1. Returnarea banilor</strong></p><p>Conform ordonantei de urgenta nr. 34/2014 din 04/06/2014 clientii cu personalitate juridica nu au dreptul să denunte unilateral contractul, legislatia in domeniu referindu-se doar la persoanele fizice.<br/><br/>Produsul returnat trebuie sa fie in aceeasi stare in care a fost livrat: să aibă etichetele ataşate, ambalajul original, documentele primite, şi chitanţa de la curier - (în original sau copie). Pentru comenzile platite cu cardul suma va fi returnata pe acelasi card utilizat la tranzactionare.<br/><br/>În MAXIM 14 DE ZILE de la data primirii returului de către noi, vă vom înapoia contravaloarea produselor în contul dumneavoastră. Cheltuielile de returnare vor fi suportate de client. În cazul în care nu sunt respectate condiţiile de retur, banii nu se pot returna.</p><p>La returul comenzilor care au beneficiat livrare gratuită, se va reține și taxa de livrare - 16,99 lei.<br/><br/>ATENŢIE! În cazul în care aţi făcut comanda în timpul unei promoţii speciale şi doriţi rambursarea banilor, pentru retur trebuie să expediaţi toate produsele comandate, în timpul promoţiei respective.</p><p><strong>2. Schimbarea produselor</strong></p><p>În cazul în care doriţi alte produse (modele sau marimi) decât cele pe care le returnaţi vă putem ajuta în limita stocului real disponibil al depozitul nostru. Expedierea produsului cu mărimea cerută la schimb se poate face prin curier, la orice adresă specificată. Taxele de transport sunt suportate de către dumneavoastră - 29,99 lei în orice localitate din România (trimiterea coletului la dvs și preluarea produsului pe care doriți să-l returnați, tur-retur). Dacă taxa de transport vi se pare mare, suntem dispuși să lucrăm cu firmele de curierat agreate de dumneavoastră!</p><p>Vă mulţumim că sunteţi clientul nostru şi vă încurajăm să ne trimiteţi sugestii astfel încât cumpărăturile la www.caraexclusive.eu să fie mereu pe placul dumneavoastră. Adresa de returnare a produselor este: Municipal Bacau, Strada Stadionului, Nr 24, Scara A, Ap 11, Judet Bacau. cod poștal 600167.<br/><br/>Pentru notificări ale intenţiei de retur şi orice alte întrebări, contactaţi-ne la adresa <strong>contact@caraexclusive.eu</strong></p>",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "left",
+            "text_size": "large",
+            "text_color": "inherit",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "text_jjAMGi"
+      ],
+      "name": "Custom content",
+      "settings": {
+        "heading": "Politica de retur",
+        "heading_size": "h2",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "color_scheme": "",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "custom_content_bBrMU3"
   ]
 }
