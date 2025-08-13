@@ -35,83 +35,10 @@
             "footer_button": "",
             "footer_link": ""
           }
-        },
-        "slider_item_gz88zV": {
-          "type": "slider_item",
-          "settings": {
-            "background": "shopify://shop_images/Neutral_Modern_Fashion_Collection_Banner.png",
-            "content_in_container": false,
-            "content_position": "center middle",
-            "text_alignment": "center",
-            "text_size": "medium",
-            "text_color": "black",
-            "subheading": "",
-            "title": "",
-            "description": "",
-            "image_link": "",
-            "button_text": "",
-            "button_link": "",
-            "button_style": "m-button--primary",
-            "button_size": "",
-            "show_footer": false,
-            "footer_alignment": "end",
-            "footer_text": "New Collection",
-            "footer_button": "Shop Now",
-            "footer_link": ""
-          }
-        },
-        "slider_item_haxqmk": {
-          "type": "slider_item",
-          "settings": {
-            "content_in_container": false,
-            "content_position": "center middle",
-            "text_alignment": "center",
-            "text_size": "medium",
-            "text_color": "black",
-            "subheading": "",
-            "title": "New Collection",
-            "description": "<p>Tell your campaign through images</p>",
-            "image_link": "",
-            "button_text": "Shop now",
-            "button_link": "",
-            "button_style": "m-button--primary",
-            "button_size": "",
-            "show_footer": false,
-            "footer_alignment": "end",
-            "footer_text": "New Collection",
-            "footer_button": "Shop Now",
-            "footer_link": ""
-          }
-        },
-        "slider_item_ChPbyV": {
-          "type": "slider_item",
-          "settings": {
-            "content_in_container": false,
-            "content_position": "center middle",
-            "text_alignment": "center",
-            "text_size": "medium",
-            "text_color": "black",
-            "subheading": "",
-            "title": "New Collection",
-            "description": "<p>Tell your campaign through images</p>",
-            "image_link": "",
-            "button_text": "Shop now",
-            "button_link": "",
-            "button_style": "m-button--primary",
-            "button_size": "",
-            "show_footer": false,
-            "footer_alignment": "end",
-            "footer_text": "New Collection",
-            "footer_button": "Shop Now",
-            "footer_link": ""
-          }
         }
       },
       "block_order": [
-        "video_slide_y3UcGj",
-        "slider_item_gz88zV",
-        "slider_item_haxqmk",
-        "slider_item_ChPbyV"
+        "video_slide_y3UcGj"
       ],
       "name": "Slideshow",
       "settings": {
@@ -240,7 +167,7 @@
             "custom_svg": "",
             "icon_size": "medium",
             "text": "FIECARE PIEASĂ DE LA CARA ESTE ALEASĂ CU SUFLET, NU DUPĂ TENDINȚE.",
-            "text_size": 82,
+            "text_size": 46,
             "text_link": ""
           }
         }
@@ -256,8 +183,8 @@
         "item_gap": 50,
         "item_gap_mobile": 30,
         "color_scheme": "footer",
-        "padding_top": 50,
-        "padding_bottom": 50,
+        "padding_top": 0,
+        "padding_bottom": 0,
         "custom_class": ""
       }
     },
@@ -522,6 +449,7 @@
         "iconbox_cPiLL4": {
           "type": "iconbox",
           "settings": {
+            "image": "shopify://shop_images/1.svg",
             "image_by_url": "",
             "title": "MATERIALE DE DISTINCȚIE",
             "description": "<p>Realizate din țesături atent selecționate, alese pentru eleganța și durabilitatea lor</p>",
@@ -535,6 +463,7 @@
         "iconbox_xNRhq4": {
           "type": "iconbox",
           "settings": {
+            "image": "shopify://shop_images/2.svg",
             "image_by_url": "",
             "title": "SERVICIU PERSONALIZAT",
             "description": "<p>Croite la perfecțiune și livrate cu grijă, direct din atelierul nostru în garderoba ta</p>",
@@ -548,6 +477,7 @@
         "iconbox_ym6NYn": {
           "type": "iconbox",
           "settings": {
+            "image": "shopify://shop_images/3.svg",
             "image_by_url": "",
             "title": "EXCELENȚĂ GARANTATĂ",
             "description": "<p>Fiecare piesă trece prin verificări minuțioase de calitate pentru un meșteșug impecabil</p>",
@@ -561,6 +491,7 @@
         "iconbox_B68RMp": {
           "type": "iconbox",
           "settings": {
+            "image": "shopify://shop_images/4.svg",
             "image_by_url": "",
             "title": "FABRICAT ÎN ROMÂNIA",
             "description": "<p>Proiectat și realizat integral în România, îmbinând tradiția cu luxul contemporan</p>",
@@ -580,7 +511,7 @@
       ],
       "name": "Featured promotion",
       "settings": {
-        "heading": "Designed for Your Comfort",
+        "heading": "",
         "heading_size": "h3",
         "subheading": "",
         "description": "",
@@ -595,8 +526,8 @@
         "image_max_width": "70px",
         "content_alignment": "center",
         "hover_effect": "scaling-up",
-        "enable_slider": false,
-        "show_pagination": false,
+        "enable_slider": true,
+        "show_pagination": true,
         "show_navigation": false,
         "use_scroll_mobile": true,
         "use_grid_column_mb": false,
