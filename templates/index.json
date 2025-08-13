@@ -516,6 +516,96 @@
         "animations": "inherit"
       }
     },
+    "icon_box_M4jbbc": {
+      "type": "icon-box",
+      "blocks": {
+        "iconbox_cPiLL4": {
+          "type": "iconbox",
+          "settings": {
+            "image_by_url": "",
+            "title": "MATERIALE DE DISTINCȚIE",
+            "description": "<p>Realizate din țesături atent selecționate, alese pentru eleganța și durabilitatea lor</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_xNRhq4": {
+          "type": "iconbox",
+          "settings": {
+            "image_by_url": "",
+            "title": "SERVICIU PERSONALIZAT",
+            "description": "<p>Croite la perfecțiune și livrate cu grijă, direct din atelierul nostru în garderoba ta</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_ym6NYn": {
+          "type": "iconbox",
+          "settings": {
+            "image_by_url": "",
+            "title": "EXCELENȚĂ GARANTATĂ",
+            "description": "<p>Fiecare piesă trece prin verificări minuțioase de calitate pentru un meșteșug impecabil</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        },
+        "iconbox_B68RMp": {
+          "type": "iconbox",
+          "settings": {
+            "image_by_url": "",
+            "title": "FABRICAT ÎN ROMÂNIA",
+            "description": "<p>Proiectat și realizat integral în România, îmbinând tradiția cu luxul contemporan</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "m-button--link",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "iconbox_cPiLL4",
+        "iconbox_xNRhq4",
+        "iconbox_ym6NYn",
+        "iconbox_B68RMp"
+      ],
+      "name": "Featured promotion",
+      "settings": {
+        "heading": "Designed for Your Comfort",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "color_scheme": "",
+        "item_per_row": 4,
+        "item_gap": 30,
+        "item_gap_mobile": 10,
+        "card_color_scheme": "",
+        "card_style": "vertical",
+        "image_max_width": "70px",
+        "content_alignment": "center",
+        "hover_effect": "scaling-up",
+        "enable_slider": false,
+        "show_pagination": false,
+        "show_navigation": false,
+        "use_scroll_mobile": true,
+        "use_grid_column_mb": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
     "instagram_bmKVqm": {
       "type": "instagram",
       "name": "Instagram",
@@ -549,6 +639,7 @@
     "custom_content_cXhdfd",
     "featured_product_slider_C6LUfj",
     "featured_collection_tqkfma",
+    "icon_box_M4jbbc",
     "instagram_bmKVqm"
   ]
 }
