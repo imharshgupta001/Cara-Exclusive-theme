@@ -104,6 +104,73 @@
         "animations": "inherit"
       }
     },
+    "7ea56e8d-5794-4708-8812-8ee9604a3a21": {
+      "type": "custom-content",
+      "blocks": {
+        "product_7LjhJ7": {
+          "type": "product",
+          "settings": {
+            "product": "esarfa-matase-indiana-tussar-bej",
+            "width": "25%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "product_NL3tym": {
+          "type": "product",
+          "settings": {
+            "product": "esarfa-matase-indiana-tussar-galben-cu-motive-indiene",
+            "width": "25%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "product_gLfnBJ": {
+          "type": "product",
+          "settings": {
+            "product": "esarfa-matase-si-bumbac-grena",
+            "width": "25%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "product_nneXUQ": {
+          "type": "product",
+          "settings": {
+            "product": "esarfa-matase-si-bumbac-verde-fistic",
+            "width": "25%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "product_7LjhJ7",
+        "product_NL3tym",
+        "product_gLfnBJ",
+        "product_nneXUQ"
+      ],
+      "custom_css": [],
+      "settings": {
+        "heading": "ESARFE MATASE",
+        "heading_size": "h2",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "w-full",
+        "color_scheme": "scheme-65e391e9-b3a4-467e-b33a-a0a1081760b5",
+        "gap": 15,
+        "use_scroll_mobile": false,
+        "gap_mobile": 10,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "custom_class": "sf-custom--collection-banner"
+      }
+    },
     "video_hero_3Titaa": {
       "type": "video-hero",
       "disabled": true,
@@ -263,73 +330,6 @@
         "padding_top": 50,
         "padding_bottom": 50,
         "custom_class": ""
-      }
-    },
-    "7ea56e8d-5794-4708-8812-8ee9604a3a21": {
-      "type": "custom-content",
-      "blocks": {
-        "product_7LjhJ7": {
-          "type": "product",
-          "settings": {
-            "product": "esarfa-matase-indiana-tussar-bej",
-            "width": "25%",
-            "alignment": "center",
-            "block_custom_class": "",
-            "animations": "inherit"
-          }
-        },
-        "product_NL3tym": {
-          "type": "product",
-          "settings": {
-            "product": "esarfa-matase-indiana-tussar-galben-cu-motive-indiene",
-            "width": "25%",
-            "alignment": "center",
-            "block_custom_class": "",
-            "animations": "inherit"
-          }
-        },
-        "product_gLfnBJ": {
-          "type": "product",
-          "settings": {
-            "product": "esarfa-matase-si-bumbac-grena",
-            "width": "25%",
-            "alignment": "center",
-            "block_custom_class": "",
-            "animations": "inherit"
-          }
-        },
-        "product_nneXUQ": {
-          "type": "product",
-          "settings": {
-            "product": "esarfa-matase-si-bumbac-verde-fistic",
-            "width": "25%",
-            "alignment": "center",
-            "block_custom_class": "",
-            "animations": "inherit"
-          }
-        }
-      },
-      "block_order": [
-        "product_7LjhJ7",
-        "product_NL3tym",
-        "product_gLfnBJ",
-        "product_nneXUQ"
-      ],
-      "custom_css": [],
-      "settings": {
-        "heading": "ESARFE MATASE",
-        "heading_size": "h2",
-        "subheading": "",
-        "description": "",
-        "header_alignment": "center",
-        "container": "w-full",
-        "color_scheme": "scheme-65e391e9-b3a4-467e-b33a-a0a1081760b5",
-        "gap": 15,
-        "use_scroll_mobile": false,
-        "gap_mobile": 10,
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "custom_class": "sf-custom--collection-banner"
       }
     },
     "custom_content_cXhdfd": {
@@ -517,10 +517,10 @@
   },
   "order": [
     "slider_nmyMVe",
+    "7ea56e8d-5794-4708-8812-8ee9604a3a21",
     "video_hero_3Titaa",
     "16225316461d1cff80",
     "scrolling_promotion_AJyYxb",
-    "7ea56e8d-5794-4708-8812-8ee9604a3a21",
     "custom_content_cXhdfd",
     "featured_product_slider_C6LUfj",
     "featured_collection_tqkfma",
