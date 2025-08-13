@@ -9,6 +9,34 @@
  */
 {
   "sections": {
+    "video_hero_3Titaa": {
+      "type": "video-hero",
+      "name": "Video hero",
+      "settings": {
+        "color_scheme": "",
+        "container": "w-full",
+        "hero_size": "adapt",
+        "video_ratio": "21/9",
+        "show_overlay": true,
+        "video_type": "shopify",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "content_in_container": false,
+        "content_position": "center middle",
+        "text_alignment": "center",
+        "text_size": "medium",
+        "text_color": "white",
+        "title": "Image with text overlay",
+        "subtitle": "",
+        "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.</p>",
+        "button_label": "Shop now",
+        "button_link": "",
+        "button_style": "m-button--primary",
+        "button_size": "",
+        "use_content_above": false,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
     "16225316461d1cff80": {
       "type": "collection-list",
       "blocks": {
@@ -392,6 +420,7 @@
     }
   },
   "order": [
+    "video_hero_3Titaa",
     "16225316461d1cff80",
     "scrolling_promotion_AJyYxb",
     "7ea56e8d-5794-4708-8812-8ee9604a3a21",
