@@ -82,7 +82,7 @@
             assign video_url = source.url
           endif
         endfor
-        assign placeholder_video = 'https://cdn.shopify.com/videos/c/o/v/004adea0ee05482c8d68bc17d3997e6f.mp4'
+        assign placeholder_video = 'https://cdn.shopify.com/videos/c/o/v/fbb140fd46e3429eba459e1549dbbe38.mp4'
 
         if section.settings.video_type == 'shopify' and video_url == blank and request.design_mode
           assign video_url = placeholder_video
@@ -105,7 +105,7 @@
             data-type="{{ data_type }}"
             data-video-id="{{ section.settings.video_url.id }}"
           >
-            {% if section.settings.video_type == 'shopify' and video_url == blank %}
+            {% if section.settings.video_type == 'shopify' and video_url != blank %}
               <video src="{{ video_url }}" playsinline autoplay muted loop></video>
             {% endif %}
           </m-video-component>
