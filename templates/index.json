@@ -9,6 +9,29 @@
  */
 {
   "sections": {
+    "17550493523016e295": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_e04a4a2_HHKkDA": {
+          "type": "ai_gen_block_e04a4a2",
+          "settings": {
+            "video_file": "shopify://files/videos/final cara excluisve website video 1 .mov",
+            "video_url": "",
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "controls": true,
+            "device_visibility": "all_devices",
+            "custom_css_class": ""
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_e04a4a2_HHKkDA"
+      ],
+      "settings": {}
+    },
     "video_hero_3Titaa": {
       "type": "video-hero",
       "name": "Video hero",
@@ -420,6 +443,7 @@
     }
   },
   "order": [
+    "17550493523016e295",
     "video_hero_3Titaa",
     "16225316461d1cff80",
     "scrolling_promotion_AJyYxb",
