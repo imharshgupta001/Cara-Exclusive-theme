@@ -80,6 +80,7 @@
         "show_social_links": true,
         "enable_follow_on_shop": false,
         "show_payment_icons": true,
+        "image_custom_payment": "shopify://shop_images/Untitled_design-52.png",
         "payment_icons_width": 300,
         "footer_bottom_color_scheme": "scheme-fb0202a6-c5c6-4f35-887e-cffa2600a703"
       }
