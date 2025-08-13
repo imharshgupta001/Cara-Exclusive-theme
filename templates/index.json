@@ -34,7 +34,7 @@
         "color_scheme": "",
         "container": "w-full",
         "hero_size": "large",
-        "video_ratio": "4/3",
+        "video_ratio": "21/9",
         "show_overlay": false,
         "video_type": "shopify",
         "video_url": "",
@@ -157,36 +157,6 @@
         "animations": "inherit"
       }
     },
-    "scrolling_promotion_AJyYxb": {
-      "type": "scrolling-promotion",
-      "blocks": {
-        "announcement_FLDJLw": {
-          "type": "announcement",
-          "settings": {
-            "custom_svg": "",
-            "icon_size": "medium",
-            "text": "FIECARE PIEASĂ DE LA CARA ESTE ALEASĂ CU SUFLET, NU DUPĂ TENDINȚE.",
-            "text_size": 46,
-            "text_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "announcement_FLDJLw"
-      ],
-      "name": "Scrolling promotion",
-      "settings": {
-        "container": "w-full",
-        "direction": "left",
-        "speed": 30,
-        "item_gap": 50,
-        "item_gap_mobile": 30,
-        "color_scheme": "footer",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "custom_class": ""
-      }
-    },
     "7ea56e8d-5794-4708-8812-8ee9604a3a21": {
       "type": "custom-content",
       "blocks": {
@@ -247,7 +217,7 @@
         "container": "w-full",
         "color_scheme": "scheme-65e391e9-b3a4-467e-b33a-a0a1081760b5",
         "gap": 15,
-        "use_scroll_mobile": false,
+        "use_scroll_mobile": true,
         "gap_mobile": 10,
         "padding_top": 50,
         "padding_bottom": 50,
@@ -281,6 +251,36 @@
         "use_content_above": false,
         "custom_class": "",
         "animations": "inherit"
+      }
+    },
+    "scrolling_promotion_AJyYxb": {
+      "type": "scrolling-promotion",
+      "blocks": {
+        "announcement_FLDJLw": {
+          "type": "announcement",
+          "settings": {
+            "custom_svg": "",
+            "icon_size": "medium",
+            "text": "FIECARE PIEASĂ DE LA CARA ESTE ALEASĂ CU SUFLET, NU DUPĂ TENDINȚE.",
+            "text_size": 46,
+            "text_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_FLDJLw"
+      ],
+      "name": "Scrolling promotion",
+      "settings": {
+        "container": "w-full",
+        "direction": "left",
+        "speed": 30,
+        "item_gap": 50,
+        "item_gap_mobile": 30,
+        "color_scheme": "footer",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
       }
     },
     "custom_content_cXhdfd": {
@@ -564,9 +564,9 @@
     "slider_nmyMVe",
     "video_hero_cUb6dF",
     "16225316461d1cff80",
-    "scrolling_promotion_AJyYxb",
     "7ea56e8d-5794-4708-8812-8ee9604a3a21",
     "video_hero_3Titaa",
+    "scrolling_promotion_AJyYxb",
     "custom_content_cXhdfd",
     "featured_product_slider_C6LUfj",
     "featured_collection_tqkfma",
