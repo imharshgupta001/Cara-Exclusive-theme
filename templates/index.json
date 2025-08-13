@@ -33,7 +33,7 @@
         "button_link": "",
         "button_style": "m-button--primary",
         "button_size": "",
-        "use_content_above": false,
+        "use_content_above": true,
         "custom_class": "",
         "animations": "inherit"
       }
