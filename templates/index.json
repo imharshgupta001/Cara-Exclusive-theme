@@ -443,7 +443,7 @@
         "header_alignment": "center",
         "container": "container-fluid",
         "color_scheme": "",
-        "item_per_row": 4,
+        "item_per_row": 3,
         "item_gap": 30,
         "item_gap_mobile": 10,
         "card_color_scheme": "",
