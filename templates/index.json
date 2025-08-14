@@ -55,6 +55,25 @@
         "animations": "inherit"
       }
     },
+    "custom_content_Y9naqR": {
+      "type": "custom-content",
+      "name": "Custom content",
+      "settings": {
+        "heading": "CUMPĂRĂ DUPĂ CATEGORIE",
+        "heading_size": "h2",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "color_scheme": "",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
     "16225316461d1cff80": {
       "type": "collection-list",
       "blocks": {
@@ -125,7 +144,7 @@
         "collection_block_GRxBee"
       ],
       "settings": {
-        "heading": "CUMPĂRĂ DUPĂ CATEGORIE",
+        "heading": "",
         "heading_size": "h2",
         "subheading": "",
         "description": "",
@@ -605,6 +624,7 @@
   "order": [
     "slider_nmyMVe",
     "video_hero_cUb6dF",
+    "custom_content_Y9naqR",
     "16225316461d1cff80",
     "7ea56e8d-5794-4708-8812-8ee9604a3a21",
     "custom_content_9ynBFH",
