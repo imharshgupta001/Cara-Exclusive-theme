@@ -50,7 +50,7 @@
       "settings": {
         "color_scheme": "scheme-65e391e9-b3a4-467e-b33a-a0a1081760b5",
         "color_scheme_menu": "scheme-65e391e9-b3a4-467e-b33a-a0a1081760b5",
-        "header_design": "logo-center__2l",
+        "header_design": "logo-left-menu-center",
         "container": "w-full",
         "header_sticky": false,
         "transparent_on_top": false,
@@ -70,7 +70,7 @@
         "mobile_menu": "",
         "uppercase_parent_level": true,
         "show_menu_column_divider": true,
-        "search": "show_full",
+        "search": "show_icon",
         "show_account_icon": true,
         "show_cart_icon": true,
         "show_wishlist_icon": false,
