@@ -516,20 +516,6 @@
             "button_size": ""
           }
         },
-        "iconbox_xNRhq4": {
-          "type": "iconbox",
-          "settings": {
-            "image": "shopify://shop_images/2.svg",
-            "image_by_url": "",
-            "title": "SERVICIU PERSONALIZAT",
-            "description": "<p>Croite la perfecțiune și livrate cu grijă, direct din atelierul nostru în garderoba ta</p>",
-            "link": "",
-            "button_label": "",
-            "button_link": "",
-            "button_style": "m-button--link",
-            "button_size": ""
-          }
-        },
         "iconbox_ym6NYn": {
           "type": "iconbox",
           "settings": {
@@ -549,7 +535,7 @@
           "settings": {
             "image": "shopify://shop_images/4.svg",
             "image_by_url": "",
-            "title": "FABRICAT ÎN ROMÂNIA",
+            "title": "FABRICAT ÎN INDIA",
             "description": "<p>Proiectat și realizat integral în România, îmbinând tradiția cu luxul contemporan</p>",
             "link": "",
             "button_label": "",
@@ -561,7 +547,6 @@
       },
       "block_order": [
         "iconbox_cPiLL4",
-        "iconbox_xNRhq4",
         "iconbox_ym6NYn",
         "iconbox_B68RMp"
       ],
