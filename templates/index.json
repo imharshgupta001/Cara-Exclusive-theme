@@ -11,10 +11,39 @@
   "sections": {
     "slider_nmyMVe": {
       "type": "slider",
+      "blocks": {
+        "slider_item_bLraCn": {
+          "type": "slider_item",
+          "settings": {
+            "background": "shopify://shop_images/Brown_Modern_Fashion_Banner_Landscape.png",
+            "content_in_container": false,
+            "content_position": "center middle",
+            "text_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "subheading": "",
+            "title": "",
+            "description": "",
+            "image_link": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "show_footer": false,
+            "footer_alignment": "end",
+            "footer_text": "",
+            "footer_button": "",
+            "footer_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slider_item_bLraCn"
+      ],
       "name": "Slideshow",
       "settings": {
         "container": "w-full",
-        "slideshow_height": "fullscreen",
+        "slideshow_height": "adapt",
         "show_overlay": false,
         "dots_position": "bottom",
         "dots_color": "dark",
@@ -488,12 +517,12 @@
   },
   "order": [
     "slider_nmyMVe",
-    "video_hero_cUb6dF",
     "custom_content_Y9naqR",
     "16225316461d1cff80",
     "featured_collection_zXHdeD",
     "scrolling_promotion_AJyYxb",
     "featured_collection_NGbbC3",
+    "video_hero_cUb6dF",
     "featured_product_slider_C6LUfj",
     "featured_collection_tqkfma",
     "icon_box_M4jbbc",
