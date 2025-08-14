@@ -48,7 +48,7 @@
     "header": {
       "type": "header",
       "custom_css": [
-        ".m-menu__item a {font-size: 22px !important; /* adjust size as needed */}"
+        ".m-menu__item a {font-size: 20px !important; /* adjust size as needed */}"
       ],
       "settings": {
         "color_scheme": "scheme-65e391e9-b3a4-467e-b33a-a0a1081760b5",
