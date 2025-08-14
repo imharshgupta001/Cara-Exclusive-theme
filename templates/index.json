@@ -16,6 +16,7 @@
           "type": "slider_item",
           "settings": {
             "background": "shopify://shop_images/Brown_Modern_Fashion_Banner_Landscape.png",
+            "mb_background": "shopify://shop_images/Brown_Modern_Fashion_Banner_Landscape.png",
             "content_in_container": false,
             "content_position": "center middle",
             "text_alignment": "center",
