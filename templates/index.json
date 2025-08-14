@@ -56,34 +56,6 @@
         "animations": "inherit"
       }
     },
-    "video_hero_cUb6dF": {
-      "type": "video-hero",
-      "name": "Video hero",
-      "settings": {
-        "color_scheme": "",
-        "container": "w-full",
-        "hero_size": "large",
-        "video_ratio": "21/9",
-        "show_overlay": false,
-        "video_type": "shopify",
-        "video_url": "",
-        "content_in_container": false,
-        "content_position": "center middle",
-        "text_alignment": "center",
-        "text_size": "medium",
-        "text_color": "white",
-        "title": "",
-        "subtitle": "",
-        "text": "",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "m-button--primary",
-        "button_size": "",
-        "use_content_above": false,
-        "custom_class": "",
-        "animations": "inherit"
-      }
-    },
     "custom_content_Y9naqR": {
       "type": "custom-content",
       "name": "Custom content",
@@ -313,6 +285,34 @@
         "animations": "inherit"
       }
     },
+    "video_hero_cUb6dF": {
+      "type": "video-hero",
+      "name": "Video hero",
+      "settings": {
+        "color_scheme": "",
+        "container": "w-full",
+        "hero_size": "large",
+        "video_ratio": "21/9",
+        "show_overlay": false,
+        "video_type": "shopify",
+        "video_url": "",
+        "content_in_container": false,
+        "content_position": "center middle",
+        "text_alignment": "center",
+        "text_size": "medium",
+        "text_color": "white",
+        "title": "",
+        "subtitle": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "m-button--primary",
+        "button_size": "",
+        "use_content_above": false,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
     "featured_product_slider_C6LUfj": {
       "type": "featured-product-slider",
       "blocks": {
@@ -340,7 +340,7 @@
             "heading": "",
             "description": "",
             "product": "esarfa-casmir-reversibila-paisley-si-elefanti-india-maro-bej",
-            "image": "shopify://shop_images/Produs-9118-scaled-1.webp"
+            "image": "shopify://shop_images/Esarfa-Casmir-reversibila-Paisley-si-elefanti-India-maro-bej-ASK-387-3-1-jpg.webp"
           }
         }
       },
