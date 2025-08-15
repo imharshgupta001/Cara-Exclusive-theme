@@ -100,7 +100,7 @@
   {% if request.page_type == 'product' %}data-product-id="{{ product.id }}"{% endif %}
 >
   <div class="{{ container }} m-section-my m-section-py">
-    {% assign default_heading = 'products.product.recently_viewed_products' | t %}
+    {% assign default_heading = 'products.product.Vizualizate_recent' | t %}
     <div class="m-section__header m:text-{{ section.settings.text_align | default: 'left' }}">
       <h2 class="m-section__heading {{ section.settings.heading_size }}{% if animated %} m-scroll-trigger animate--{{ animation_effect }}{% endif %}">{{ section.settings.heading | default: default_heading }}</h2>
     </div>
