@@ -1,17 +1,29 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "collection-header": {
       "type": "collection-page-header",
       "settings": {
+        "color_scheme": "",
+        "container": "container",
         "layout": "inside",
         "header_height": "small",
+        "enable_parallax": false,
         "text_alignment": "center",
         "vertical_alignment": "center",
-        "bg_color": "#ffffff",
-        "enable_parallax": false,
+        "text_color": "inherit",
         "upper_title": false,
         "show_desc": false,
-        "collection_all_desc": ""
+        "collection_all_desc": "",
+        "enable_bg_zoom_effect": true
       }
     },
     "main": {
@@ -23,6 +35,7 @@
             "design_filtergroup": "button",
             "title": "Size",
             "filtergroup": "XS,S,M,L,XL",
+            "show_label": false,
             "use_accordion": false,
             "open_filtergroup": true
           }
@@ -33,6 +46,7 @@
             "design_filtergroup": "color",
             "title": "Colors",
             "filtergroup": "Blue, Red, White ,Black ,Pink ,Silver,Purple,Brown,Yellow,Grey,Green,Tan,Violet,Dark Grey,Beige,Light Blue, Dark Blue, Light Grey, Light Pink, Mint, Rose Gold, Night Blue, Copper, Coral, Rosy Brown",
+            "show_label": false,
             "use_accordion": false,
             "open_filtergroup": true
           }
@@ -43,6 +57,7 @@
             "design_filtergroup": "default",
             "title": "Prices",
             "filtergroup": "$0-$50,$50-$100,$100-$150,$150-$200,$200-$300,$300-$400",
+            "show_label": false,
             "use_accordion": false,
             "open_filtergroup": true
           }
@@ -53,6 +68,7 @@
             "design_filtergroup": "inrow",
             "title": "Brands",
             "filtergroup": "Minimog,Retrolie,Abby,Brook,Learts,Vagabond",
+            "show_label": false,
             "use_accordion": false,
             "open_filtergroup": true
           }
@@ -63,6 +79,7 @@
             "design_filtergroup": "inrow",
             "title": "Tags",
             "filtergroup": "Dress,Tops,Shirts,Fashion,Hats,Sandal,Belt,Bags,Snacker,Denim,Minimog,Vagabond,Sunglasses, Beachwear,Vintage",
+            "show_label": false,
             "use_accordion": true,
             "open_filtergroup": true
           }
@@ -79,24 +96,47 @@
         "container": "container-fluid",
         "grid_layout": "grid",
         "grid_columns": "4",
+        "show_columns_switcher": true,
         "pagination_limit": 12,
+        "paginate_type": "paginate",
         "show_sorting": true,
         "show_filter": true,
         "filters_type": "tags_filter",
         "sidebar": "leftColumn",
         "sidebar_title": "Filters",
         "limit_height_widget": false,
-        "paginate_type": "paginate"
+        "limit_height": 300,
+        "change_product_variant_on_fitlering": true,
+        "show_product_count": true,
+        "collapsed_groups": "Brand, Vendor, Size",
+        "color_swatches": "color,colour,couleur,farbe"
       }
     },
     "recent-viewed": {
       "type": "recent-viewed-products",
       "settings": {
-        "heading": "Recently Viewed Products",
         "container": "container",
+        "color_scheme": "",
+        "heading": "Vizualizate Recent",
+        "heading_size": "h2",
+        "text_align": "left",
+        "limit": 8,
         "columns": 4,
         "column_gap": 30,
-        "enable_slider": true
+        "pcard_layout": "",
+        "pcard_image_ratio": "",
+        "show_vendor": false,
+        "hide_title": false,
+        "enable_slider": true,
+        "show_pagination": false,
+        "show_navigation": false,
+        "mobile_disable_slider": false,
+        "use_scroll_mobile": true,
+        "item_gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
       }
     }
   },
