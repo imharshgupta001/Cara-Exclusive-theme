@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -6,32 +15,21 @@
         "container": "container"
       }
     },
-    "maps": {
-      "type": "maps",
-      "settings": {
-        "container": "container",
-        "map_height": "large",
-        "textx": "40.6700",
-        "texty": "-73.9400",
-        "zoom": "11",
-        "text2": "New York"
-      }
-    },
     "contact-form": {
       "type": "contact-form",
       "blocks": {
         "text-block-1": {
           "type": "textblock",
           "settings": {
-            "title": "Address",
-            "content": "<p>7895 Piermont Dr NE Albuquerque, NM 198866, <a href=\"#\">See Our Stores</a></p>"
+            "title": "Adresă",
+            "content": "<p>Strada Stadionului, Nr 24 Bacau 600167, Romania CUI : 34227785 Nr. Reg. Com : J4/281/2015</p>"
           }
         },
         "text-block-2": {
           "type": "textblock",
           "settings": {
-            "title": "Information",
-            "content": "<p>+391 (0)35 2568 4593</p><p>hello@domain.com</p>"
+            "title": "Informații",
+            "content": "<p>contact@caraexclusive.eu</p><p>+40 728 266 976</p>"
           }
         },
         "text-block-3": {
@@ -43,8 +41,8 @@
         "text-block-4": {
           "type": "textblock",
           "settings": {
-            "title": "We're Open",
-            "content": "<p>Our store has re-opened for shopping, exchanges</p><p>Every day 11am to 7pm</p>"
+            "title": "Suntem deschiși",
+            "content": "<p>Cumpără oricând, oriunde — boutique-ul nostru este deschis 24/7 online.</p>"
           }
         }
       },
@@ -56,14 +54,17 @@
       ],
       "settings": {
         "container": "container",
-        "title": "We would love to hear from you.",
-        "description": "<p>If you’ve got great products your making or looking to work with us then drop us a line.</p>"
+        "title": "Ne-ar plăcea să auzim de la tine.",
+        "description": "<p>Dacă ai produse grozave pe care le creezi sau vrei să colaborezi cu noi, scrie-ne un mesaj.</p>",
+        "show_name": true,
+        "show_phone": false,
+        "show_signup_email": true,
+        "animations": "inherit"
       }
     }
   },
   "order": [
     "main",
-    "maps",
     "contact-form"
   ]
 }
