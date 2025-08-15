@@ -9,6 +9,34 @@
  */
 {
   "sections": {
+    "video_hero_cUb6dF": {
+      "type": "video-hero",
+      "name": "Video hero",
+      "settings": {
+        "color_scheme": "",
+        "container": "w-full",
+        "hero_size": "large",
+        "video_ratio": "21/9",
+        "show_overlay": false,
+        "video_type": "shopify",
+        "video_url": "",
+        "content_in_container": false,
+        "content_position": "center middle",
+        "text_alignment": "center",
+        "text_size": "medium",
+        "text_color": "white",
+        "title": "",
+        "subtitle": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "m-button--primary",
+        "button_size": "",
+        "use_content_above": false,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
     "slider_nmyMVe": {
       "type": "slider",
       "blocks": {
@@ -41,6 +69,7 @@
       "block_order": [
         "slider_item_bLraCn"
       ],
+      "disabled": true,
       "name": "Slideshow",
       "settings": {
         "container": "w-full",
@@ -286,34 +315,6 @@
         "animations": "inherit"
       }
     },
-    "video_hero_cUb6dF": {
-      "type": "video-hero",
-      "name": "Video hero",
-      "settings": {
-        "color_scheme": "",
-        "container": "w-full",
-        "hero_size": "large",
-        "video_ratio": "21/9",
-        "show_overlay": false,
-        "video_type": "shopify",
-        "video_url": "",
-        "content_in_container": false,
-        "content_position": "center middle",
-        "text_alignment": "center",
-        "text_size": "medium",
-        "text_color": "white",
-        "title": "",
-        "subtitle": "",
-        "text": "",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "m-button--primary",
-        "button_size": "",
-        "use_content_above": false,
-        "custom_class": "",
-        "animations": "inherit"
-      }
-    },
     "featured_product_slider_C6LUfj": {
       "type": "featured-product-slider",
       "blocks": {
@@ -496,7 +497,7 @@
       "type": "instagram",
       "name": "Instagram",
       "settings": {
-        "heading": "FOLLOW US ON INSTAGRAM",
+        "heading": "Urmărește-ne pe Instagram",
         "heading_size": "h2",
         "subheading": "",
         "description": "",
@@ -509,7 +510,7 @@
         "gap": 30,
         "mobile_gap": 10,
         "profile": "https://www.instagram.com/onlinecara/",
-        "button_label": "FOLLOW US",
+        "button_label": "Urmărește-ne",
         "padding_top": 50,
         "padding_bottom": 50,
         "custom_class": ""
@@ -517,13 +518,13 @@
     }
   },
   "order": [
+    "video_hero_cUb6dF",
     "slider_nmyMVe",
     "custom_content_Y9naqR",
     "16225316461d1cff80",
     "featured_collection_zXHdeD",
     "scrolling_promotion_AJyYxb",
     "featured_collection_NGbbC3",
-    "video_hero_cUb6dF",
     "featured_product_slider_C6LUfj",
     "featured_collection_tqkfma",
     "icon_box_M4jbbc",
