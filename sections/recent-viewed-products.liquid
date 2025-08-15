@@ -1,6 +1,6 @@
 {{ 'component-product-card.css' | asset_url | stylesheet_tag }}
 {{ 'component-product-inventory.css' | asset_url | stylesheet_tag }}
-<script src="{{ 'recently-viewed-products.js' | asset_url }}" defer="defer"></script>
+<script src="{{ 'Produse-Vizualizate-recent.js' | asset_url }}" defer="defer"></script>
 {% liquid
   assign container = section.settings.container
   if container == 'w-full'
@@ -100,7 +100,7 @@
   {% if request.page_type == 'product' %}data-product-id="{{ product.id }}"{% endif %}
 >
   <div class="{{ container }} m-section-my m-section-py">
-    {% assign default_heading = 'products.product.Vizualizate_recent' | t %}
+    {% assign default_heading = 'products.product.Produse_Vizualizate_recent' | t %}
     <div class="m-section__header m:text-{{ section.settings.text_align | default: 'left' }}">
       <h2 class="m-section__heading {{ section.settings.heading_size }}{% if animated %} m-scroll-trigger animate--{{ animation_effect }}{% endif %}">{{ section.settings.heading | default: default_heading }}</h2>
     </div>
@@ -153,7 +153,7 @@
 </m-recently-viewed>
 {% schema %}
 {
-  "name": "Vizualizate recent",
+  "name": "Vizualizate_recent",
   "disabled_on": {
     "groups": [
       "header"
@@ -458,7 +458,7 @@
   ],
   "presets": [
     {
-      "name": "Vizualizate Recent",
+      "name": "Vizualizate recent",
       "settings": {
       }
     }
