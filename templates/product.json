@@ -106,7 +106,7 @@
         "tab"
       ],
       "settings": {
-        "container": "container",
+        "container": "container-narrow",
         "color_scheme": "",
         "default_open": true,
         "padding_top": 0,
