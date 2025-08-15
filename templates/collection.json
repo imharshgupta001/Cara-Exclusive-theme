@@ -111,38 +111,10 @@
         "collapsed_groups": "Brand, Vendor, Size",
         "color_swatches": "color,colour,couleur,farbe"
       }
-    },
-    "recent-viewed": {
-      "type": "recent-viewed-products",
-      "settings": {
-        "container": "container",
-        "color_scheme": "",
-        "heading": "Vizualizate Recent",
-        "heading_size": "h2",
-        "text_align": "left",
-        "limit": 8,
-        "columns": 4,
-        "column_gap": 30,
-        "pcard_layout": "",
-        "pcard_image_ratio": "",
-        "show_vendor": false,
-        "hide_title": false,
-        "enable_slider": true,
-        "show_pagination": false,
-        "show_navigation": false,
-        "mobile_disable_slider": false,
-        "use_scroll_mobile": true,
-        "item_gap_mobile": 16,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "custom_class": "",
-        "animations": "inherit"
-      }
     }
   },
   "order": [
     "collection-header",
-    "main",
-    "recent-viewed"
+    "main"
   ]
 }

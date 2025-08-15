@@ -515,34 +515,6 @@
         "padding_bottom": 50,
         "custom_class": ""
       }
-    },
-    "recent_viewed_products_Yz4G6E": {
-      "type": "recent-viewed-products",
-      "name": "Recently viewed products",
-      "settings": {
-        "container": "container",
-        "color_scheme": "",
-        "heading": "Produse Rizualizate Recent",
-        "heading_size": "h3",
-        "text_align": "left",
-        "limit": 8,
-        "columns": 4,
-        "column_gap": 30,
-        "pcard_layout": "",
-        "pcard_image_ratio": "",
-        "show_vendor": false,
-        "hide_title": false,
-        "enable_slider": true,
-        "show_pagination": false,
-        "show_navigation": false,
-        "mobile_disable_slider": false,
-        "use_scroll_mobile": true,
-        "item_gap_mobile": 16,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "custom_class": "",
-        "animations": "inherit"
-      }
     }
   },
   "order": [
@@ -556,7 +528,6 @@
     "featured_product_slider_C6LUfj",
     "featured_collection_tqkfma",
     "icon_box_M4jbbc",
-    "instagram_bmKVqm",
-    "recent_viewed_products_Yz4G6E"
+    "instagram_bmKVqm"
   ]
 }
