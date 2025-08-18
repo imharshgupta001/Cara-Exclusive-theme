@@ -509,19 +509,42 @@
     },
     "1755519966a3d77f98": {
       "type": "apps",
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "1755520825ebc932a0": {
+      "type": "apps",
       "blocks": {
-        "omega_instafeed_grid_Mz47zn": {
-          "type": "shopify://apps/omega-instafeed/blocks/grid/710f3bb4-c962-4be4-a6e2-1cee2ca38517",
+        "instafeed_app_block_tefADw": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
-            "IdOfOmegaGrid": "1404",
-            "padding_top": 0,
-            "padding_bottom": 0,
-            "background_color": "#ffffff"
+            "title": "",
+            "title_color": "",
+            "title_size_v2": 0,
+            "alignment": "center",
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 0,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": false,
+            "link_alignment": "left",
+            "link_color": "#000000",
+            "background_color": "",
+            "feed_id": "",
+            "html_area": ""
           }
         }
       },
       "block_order": [
-        "omega_instafeed_grid_Mz47zn"
+        "instafeed_app_block_tefADw"
       ],
       "settings": {
         "heading": "",
@@ -548,6 +571,7 @@
     "featured_collection_tqkfma",
     "icon_box_M4jbbc",
     "17555110180285c396",
-    "1755519966a3d77f98"
+    "1755519966a3d77f98",
+    "1755520825ebc932a0"
   ]
 }
