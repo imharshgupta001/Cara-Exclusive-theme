@@ -493,29 +493,6 @@
         "animations": "inherit"
       }
     },
-    "instagram_bmKVqm": {
-      "type": "instagram",
-      "name": "Instagram",
-      "settings": {
-        "heading": "Urmărește-ne pe Instagram",
-        "heading_size": "h2",
-        "subheading": "",
-        "description": "",
-        "header_alignment": "center",
-        "container": "w-full",
-        "color_scheme": "scheme-65e391e9-b3a4-467e-b33a-a0a1081760b5",
-        "layout": "grid",
-        "images_count": 4,
-        "grid_columns": 4,
-        "gap": 30,
-        "mobile_gap": 10,
-        "profile": "https://www.instagram.com/onlinecara/",
-        "button_label": "Urmărește-ne",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "custom_class": ""
-      }
-    },
     "17555110180285c396": {
       "type": "apps",
       "blocks": {
@@ -551,7 +528,6 @@
     "featured_product_slider_C6LUfj",
     "featured_collection_tqkfma",
     "icon_box_M4jbbc",
-    "instagram_bmKVqm",
     "17555110180285c396"
   ]
 }
