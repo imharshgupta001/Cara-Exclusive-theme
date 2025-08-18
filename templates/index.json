@@ -529,13 +529,13 @@
           "settings": {
             "title": "",
             "title_color": "",
-            "title_size_v2": 0,
+            "title_size_v2": 30,
             "alignment": "center",
             "instafeed_margin_top": 0,
             "instafeed_margin_bottom": 0,
             "instafeed_margin_sides": 0,
             "show_instagram_link": false,
-            "link_alignment": "left",
+            "link_alignment": "center",
             "link_color": "#000000",
             "background_color": "",
             "feed_id": "",
@@ -547,8 +547,8 @@
         "instafeed_app_block_tefADw"
       ],
       "settings": {
-        "heading": "",
-        "heading_size": "h3",
+        "heading": "URMĂREȘTE-NE PE INSTAGRAM",
+        "heading_size": "h2",
         "subheading": "",
         "header_alignment": "center",
         "container": "container",
