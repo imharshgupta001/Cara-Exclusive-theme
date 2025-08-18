@@ -516,16 +516,16 @@
         "custom_class": ""
       }
     },
-    "1755510944566fc11d": {
+    "17555110180285c396": {
       "type": "apps",
       "blocks": {
-        "square_instagram_feed_insta_feed_wJiWV8": {
+        "square_instagram_feed_insta_feed_374i9F": {
           "type": "shopify://apps/square-instagram-feed/blocks/insta-feed/8c9f3786-8bb5-488d-a397-b1285ed978df",
           "settings": {}
         }
       },
       "block_order": [
-        "square_instagram_feed_insta_feed_wJiWV8"
+        "square_instagram_feed_insta_feed_374i9F"
       ],
       "settings": {
         "heading": "",
@@ -552,6 +552,6 @@
     "featured_collection_tqkfma",
     "icon_box_M4jbbc",
     "instagram_bmKVqm",
-    "1755510944566fc11d"
+    "17555110180285c396"
   ]
 }
