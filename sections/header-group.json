@@ -37,7 +37,7 @@
         "container": "w-full",
         "color_scheme": "scheme-ef4ac600-b0ce-4a03-95a9-d6a5123cee52",
         "show_announcement": true,
-        "homepage_only": true,
+        "homepage_only": false,
         "show_close": false,
         "show_divider": false,
         "show_nav": false,
