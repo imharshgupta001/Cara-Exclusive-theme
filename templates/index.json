@@ -414,28 +414,30 @@
         "animations": "inherit"
       }
     },
-    "video_ziLTna": {
-      "type": "video",
-      "name": "Video",
+    "videohero2_EWtkHE": {
+      "type": "videohero2",
+      "name": "Video hero",
       "settings": {
-        "container": "w-full",
         "color_scheme": "",
+        "container": "w-full",
+        "hero_size": "adapt",
+        "video_ratio": "16/9",
+        "show_overlay": true,
         "video_type": "shopify",
-        "shopify_video": "shopify://files/videos/Untitled design.mp4",
-        "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "ratio": "16:9",
-        "video_title": "",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "content_in_container": false,
+        "content_position": "center middle",
+        "text_alignment": "center",
         "text_size": "medium",
-        "text_color": "inherit",
-        "play_style": "solid",
-        "play_size": "medium",
-        "width": "650px",
-        "autoplay": true,
-        "loop": true,
-        "muted": true,
-        "show_controls": false,
-        "padding_top": 0,
-        "padding_bottom": 0,
+        "text_color": "white",
+        "title": "",
+        "subtitle": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "m-button--primary",
+        "button_size": "",
+        "use_content_above": false,
         "custom_class": "",
         "animations": "inherit"
       }
@@ -530,7 +532,7 @@
     "featured_collection_NGbbC3",
     "featured_product_slider_C6LUfj",
     "featured_collection_tqkfma",
-    "video_ziLTna",
+    "videohero2_EWtkHE",
     "icon_box_M4jbbc"
   ]
 }
