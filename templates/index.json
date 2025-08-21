@@ -414,31 +414,28 @@
         "animations": "inherit"
       }
     },
-    "video_hero_CkFJfe": {
-      "type": "video-hero",
-      "name": "Video hero",
+    "video_ziLTna": {
+      "type": "video",
+      "name": "Video",
       "settings": {
-        "color_scheme": "",
         "container": "w-full",
-        "hero_size": "adapt",
-        "video_ratio": "21/9",
-        "show_overlay": true,
+        "color_scheme": "",
         "video_type": "shopify",
         "shopify_video": "shopify://files/videos/Untitled design.mp4",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "content_in_container": false,
-        "content_position": "center middle",
-        "text_alignment": "center",
+        "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "ratio": "16:9",
+        "video_title": "",
         "text_size": "medium",
-        "text_color": "white",
-        "title": "Image with text overlay",
-        "subtitle": "",
-        "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.</p>",
-        "button_label": "Shop now",
-        "button_link": "",
-        "button_style": "m-button--primary",
-        "button_size": "",
-        "use_content_above": false,
+        "text_color": "inherit",
+        "play_style": "solid",
+        "play_size": "medium",
+        "width": "650px",
+        "autoplay": false,
+        "loop": false,
+        "muted": false,
+        "show_controls": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
         "custom_class": "",
         "animations": "inherit"
       }
@@ -533,7 +530,7 @@
     "featured_collection_NGbbC3",
     "featured_product_slider_C6LUfj",
     "featured_collection_tqkfma",
-    "video_hero_CkFJfe",
+    "video_ziLTna",
     "icon_box_M4jbbc"
   ]
 }
