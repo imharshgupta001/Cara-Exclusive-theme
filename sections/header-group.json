@@ -14,6 +14,21 @@
     "annoucement": {
       "type": "annoucement",
       "blocks": {
+        "item_ACNfXV": {
+          "type": "item",
+          "settings": {
+            "message": "Foloseste codul de reducere \"SHOP10\" la finalizarea comenzii",
+            "message_link": ""
+          }
+        },
+        "item_QdrDBd": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "message": "",
+            "message_link": ""
+          }
+        },
         "item_AVBkW6": {
           "type": "item",
           "settings": {
@@ -30,6 +45,8 @@
         }
       },
       "block_order": [
+        "item_ACNfXV",
+        "item_QdrDBd",
         "item_AVBkW6",
         "item_daBDH3"
       ],
