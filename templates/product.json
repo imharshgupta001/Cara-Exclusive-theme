@@ -51,7 +51,7 @@
         "addons": {
           "type": "addons",
           "settings": {
-            "show_atcp": true,
+            "show_atcp": false,
             "show_ask_a_question": true,
             "show_social": true
           }
