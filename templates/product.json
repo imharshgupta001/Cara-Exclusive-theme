@@ -26,6 +26,10 @@
           "type": "title",
           "settings": {}
         },
+        "description_EFHgzE": {
+          "type": "description",
+          "settings": {}
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -59,6 +63,7 @@
       },
       "block_order": [
         "title",
+        "description_EFHgzE",
         "price",
         "variant_picker",
         "buy_buttons",
@@ -86,28 +91,21 @@
     "product-details-tabs": {
       "type": "product-details-tabs",
       "blocks": {
-        "description": {
-          "type": "description",
-          "settings": {
-            "header": "Descriere produs"
-          }
-        },
         "tab": {
           "type": "tab",
           "settings": {
             "header": "Livrare și retur",
-            "content": "<p>Costul livrării se calculează în funcție de greutate. Adaugă produsele în coș și folosește Calculatorul de livrare pentru a vedea prețul final.</p><p>Ne dorim să fii 100% mulțumit de achiziția ta. Produsele pot fi returnate sau schimbate în termen de 14 de zile de la livrare.</p>",
+            "content": "<p>Livrare:<br/>Livrare prin curier DPD sau Same Day: 15 lei pentru orice comandă, în România.<br/>Retur:<br/>Ai dreptul de a returna produsul în 14 zile de la primire, conform legii. Produsul trebuie să fie nefolosit, în ambalajul original. Contactează-ne la contact@caraexclusive.eu pentru a iniția returul.</p>",
             "content_page": ""
           }
         }
       },
       "block_order": [
-        "description",
         "tab"
       ],
       "settings": {
         "container": "container-narrow",
-        "color_scheme": "",
+        "color_scheme": "default",
         "default_open": true,
         "padding_top": 0,
         "padding_bottom": 0,
